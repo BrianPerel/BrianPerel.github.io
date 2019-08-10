@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+	background-color: #FFFFC2;
+	max-width: 1100px;
+	margin: auto;
+}
+div.mainDiv1 {
+	background-color: #ececec;
+	width: 100%;
+}
+div.mainDiv1::after {
+	clear: both;
+	display: table;
+}
+div.mainDiv2 {
+	background-color: #ececec;
+	width: 100%;
+}
+div.mainDiv2::after {
+	clear: both;
+	display: table;
+	content: "";
+}
+div.head {
+	background-color: #7EE2FF;
+	padding: 0px 10px 30px 10px;
+	width: 97.7%;
+	height: 120px;
+	position: relative;
+	border: solid green;
+	box-shadow: 5px 5px 5px 5px #888888;
+	font-size: 16px;
+}
+div.head h1 {
+	font-family: Curlz mt; /* Verdana */
+	font-size: 54px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+div.class1 {
+	float: left;
+	width: 46%;
+}
+div.class1 p {
+	font-size: 19px;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 10px;
+	float: left;
+}
+.gradient {
+	margin-top: 30px;
+	height: 6px;
+	background: linear-gradient(orange, green);
+}
+div.verticalNav > ul > li {
+	font-size: 18px;
+	padding-bottom: 3px;
+}
+div.verticalNav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 5px;
+	background-color: #7EE2FF;
+	height: auto;
+	width: 140px;
+	border: solid black 0.1em;
+	float: left; 
+	padding-right: 40px;
+}
+div.verticalNav a {
+   background-color: #E0E0E0;
+   color: black;
+   display: block;
+   border: solid black 0.1em;
+   font-size: 16px;
+   line-height: 1.5em;
+   text-align: center;
+   width: 100%;
+}  
+
+/* Pseudo-class, works for state when mouse is hovering over link */
+li a:hover {
+  box-shadow: 5px 5px 5px 5px #888888;
+  background-color: #989898;
+  color: white;
+}
+li a:active {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+/*
+.class1 img {
+	float: right;
+}*/
+div.class1 hr {
+    width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	background-color: #666;
+}
+
+div.classResume p {
+	font-size: 18px;
+	margin-left: 210px;
+	margin-right: 140px;
+}
+div.resume_hr {
+	width: 68%;
+	height: 3px;
+	background-color: black;
+	margin-left: 80px;
+}
+div.websites {
+	float: right;
+	width: 80%;
+}
+div.websites p {
+	float: left;
+	font-size: 19px;
+	padding-right: 120px;
+}
+div.websites hr {
+	color: orange;
+	width: 87%;
+	border: solid;
+	margin-right: 130px;
+	margin-top: 30px;
+}
+div.vm {
+	float: right;
+	width: 80%;
+}
+div.vm p {
+	font-size: 18px;
+	width: 90%;
+	float: left;
+}
+div.back_to_top {
+	font-size: 20px;
+	height: 20px;
+	width: 110px;
+	float: left;
+	padding: 0px 0px 50px 5px;
+}
+footer p {
+	background-color: #dfceae;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 16px;
+	height: 40px;
+}
+footer {
+	background-color: #dfceae;
+	height: 40px;
+	padding-top: 5px;
+	padding-left: 5px;
+}

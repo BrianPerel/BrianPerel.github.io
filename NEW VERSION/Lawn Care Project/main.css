@@ -1,0 +1,450 @@
+@charset "UTF-8";
+
+/* Brian's CSS - Equipment page */
+body {
+	background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 1100px;
+	min-width: 640px;
+	margin: auto;
+}
+.mainDiv {
+	background-color: #ccffff; /* blue */ 
+	width: 100%;
+}
+.mainDiv::after {
+	clear: both;
+	display: table;
+	content: "";
+}
+body, header, aside {
+	display: block;
+}
+nav.horizontalNav {
+	padding-top: 2px;
+	padding-bottom: 10px;
+	background-color: #DEB887;	
+	height: 40px;
+	width: 99.99%;
+}
+nav.horizontalNav > ul > li {
+   display: block;
+   float: left;
+   width: 10%;
+   padding-left: 0px;
+   padding-right: 7px;
+}
+nav.horizontalNav a {
+   background-color: rgb(205, 195, 134);
+   display: block;
+   border: solid;
+   font-size: 14px;
+   line-height: 1.5em;
+   text-align: center;
+   width: 100%;
+}  
+header { 
+	background-color: #ccffff;
+	margin: auto;
+	padding: auto;
+	width: 80%;
+	height: 140px;
+	position: relative;
+}
+header h1 {
+	font-family: "Brush Script MT";
+	font-size: 35px;
+}
+.p25 {
+	font-size: 14px;
+}
+.head {
+	background-color: #009900;
+	margin: auto;
+	padding: 10px 10px 10px 10px;
+	width: 97.7%;
+	height: 160px;
+	position: relative;
+	border: solid orange;
+}
+section {
+	float: left;
+	height: 700px;
+}
+section h2 {
+	padding-left: 10px;
+}
+section p {
+	padding-left: 10px;
+}
+.section1 {
+	background-color: #009900; /* Green */
+	height: 170px;
+	padding: 5px 1px 2px 4px;
+	margin: 0px 0px 0px 4px;
+	float: left;
+}
+.sectionTrucks {
+	float: left;
+	background-color: #ccffcc; /* Blue */
+	margin-top: 5px;
+	margin-right: 1px;
+	width: 54%;
+	/* border-style: solid;
+	border-color: #0077b3; */
+	padding-left: 5px;
+	margin-left: 5px;
+	height: 390px;
+}
+.section2 {
+	background-color: #ccffcc; /* Blue */
+	margin: 0px 0px 100px 2px;
+	width: 92%;
+	padding: 0px 5px 5px 25px;
+	float: float;
+}
+.section2custom {
+	background-color: grey; /* Blue */
+	margin: 0px 0px 100px 2px;
+	width: 92%;
+	padding: 0px 5px 0px 25px;
+	float: float;
+}
+.section3 { 
+	float: left;
+	background-color: #ccffcc; /* Blue */
+	margin-top: 5px;
+	margin-right: 1px;
+	width: 54%;
+	/* border-style: solid;
+	border-color: #0077b3; */
+	padding-left: 5px;
+	margin-left: 5px;
+}
+.section4S {
+	padding: 0px 90px 0px 0px;
+	margin-bottom: 15px;
+	float: left;
+	width: 4%;
+}
+.section4S li {
+	font-size: 20px;
+	margin: auto;
+	padding: 0px 10px 0px 0px;
+}
+.heading2 {
+	float: right;
+	margin-right: 320px
+} 
+aside {
+	background-color: #ccffcc;
+	/* border-style: solid;
+	border-color: #0077b3; */
+	width: 310px;
+	height: 948px; 
+	float: right;
+	padding-left: 40px;
+	padding-right: 38px;
+	margin-top: 40px;
+	margin-right: 5px;
+}
+aside ol, li {
+	padding-left: 110px;
+}
+.aside {
+	background-color: #ccffcc;
+	/* border-style: solid;
+	border-color: #0077b3; */
+	width: 310px;
+	height: 960px;
+	float: right;
+	padding-left: 40px;
+	padding-right: 38px;
+	margin-top: 7px;
+}
+img {
+	float: left;
+	margin-right: 5px;
+	margin-top: 3px;
+}
+ol {
+	font-size: 18px;
+}
+li {
+	font-size: 16px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+p {
+	font-size: 18px;
+}
+footer {
+	float: left;
+	background-color: #DEB887;
+	padding-left: 5px;
+	margin-bottom: 40px;
+	width: 99.5%;
+}
+.back_to_top {
+	font-size: 22px;
+	background-color: #ccffff; /* blue */
+	color: black;
+	height: 20px;
+	padding-left: 5px;
+	clear: both;
+}
+.column1 {
+	float: left;
+	padding-left: 1px;
+}
+.column2 {
+	float: right;
+	padding-right: 6px;
+}
+.form {
+	background-color: #ccffcc;
+	margin: auto;
+	width: 98.5%;
+	padding: 5px 10px 25px 1px;
+}
+.back_to_top2 {
+	font-size: 18px;
+	background-color: #ccffcc;
+	height: 26px;
+	width: 76px;
+	float: left;
+	margin-bottom: 25px;
+	padding: 0px 0px 35px 5px;
+	border: solid black;
+}
+table {
+	margin: auto;
+	width: 70%;
+	border-spacing: 0px;
+}
+table, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+label {
+	font-size: 18px;
+	padding: auto;
+}
+input {
+	font-size: 18px;
+	padding: auto;
+}
+option {
+	font-size: 12px;
+}
+
+
+
+/* Shannon's CSS */
+
+div#sidebar {
+	border: solid black;
+	width: 30%;
+	height: 410px;
+	float: right;
+	background-color: #e6ffff;
+	margin-right: 5px;
+}
+div#two {
+	border: solid black;
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 5px;
+	height: auto;
+	float: left;
+	background-color: #e6ffff;
+}
+div#aboutus {
+	border: solid black;
+	width: 60%;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 5px;
+	background-color: #e6ffff;
+}
+/* for the form */
+.section2form {
+	background-color: #ccffcc;
+	margin: 5px 5px 5px 40px;
+	width: 92%;
+	padding: auto;
+}
+div#customerInfo {
+	float: left;
+	width: 48%;
+	padding-left: 5px;
+}
+div#experience {
+	float: right;
+	width: 48%;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+div#img1 {
+	margin-top: 10px;
+	border: none;
+}
+div#submit {
+	clear: right;
+}
+div#purpose {
+	background-color: #ccffff;
+	width: 99%;
+	padding: 5px;
+}
+/* for FAQ */
+div#heading {
+	background-color: #ccffff;
+	width: 100%;
+	text-align: center;
+}
+div#col1, div#col2, div#col3 {
+	width: 28%;
+	background-color: #ccffff;
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+div#col1 p, div#col2 p, div#col3 p {
+	font-size: 20px;
+}
+#col1 {
+	float:left;
+	margin-left: 15px;
+}
+#col2 {
+	float: left;
+	padding-left: 100px;
+}
+#col3 {
+	float: right;
+	margin-right: 15px;
+}
+
+
+/* Sean's CSS */
+
+.top {
+	padding: 100px;
+}
+Header {
+	text-align: justify;
+	font-size: 50px;
+	font-weight: 100;
+	font-family: alternate gothic;
+
+}
+.head1 {
+	background-color: #ccffcc;
+}
+.form {
+	background-color: #ccffcc;
+	width: 90%;
+	margin: 40px;
+	border: solid black;
+}
+.photo img {
+	height: 160px;
+	margin: 0px, 0px, 0px, 10px;
+	padding: 5px;
+	background-color: #ccffcc;
+	width: 20%;
+	display: inline;
+	background-repeat: no-repeat;
+	opacity: 10px;
+}
+.photo1 img {
+	display: block;
+	width: 85%;
+	height: 300px;
+	padding: 5px;
+	background-color: #ccffcc;
+	display: inline;
+	background-repeat: no-repeat;
+	opacity: 10px;
+}
+.photo2 img {
+	margin-left: 18px;
+}
+.content p {
+	font-size: 22px;
+	margin: auto;
+	background-color: #ccffcc;
+}
+.section01 { 
+	width:990px;
+	font-size: 30px;
+	background-color: #e17100;
+	float: left;
+	padding: 20px;
+	border-collapse: separate;
+	border-spacing: 50px;
+	border:solid 5px black;
+	margin-bottom: 20px;
+}
+.section02 {
+	width:1000px;
+	font-size: 20px;
+	background-color: #e17100;
+	float: left;
+	padding: 10px;
+	border: solid 5px black;
+	border-spacing: 10px;
+	border-collapse: separate;
+	margin-bottom: 20px;
+}
+.section03 {
+	width:1000px;
+	font-size: 20px;
+	background-color: #ccffcc;
+	float: left;
+	padding: 10px;
+	border: solid 5px black;
+	border-spacing: 10px;
+	border-collapse: separate;
+	margin-bottom: 20px;
+}
+.section04 {
+	width:1000px;
+	font-size: 20px;
+	background-color: #ccffcc;
+	float: left;
+	padding: 10px;
+	border: solid 5px black;
+	border-spacing: 10px;
+	border-collapse: separate;
+	margin-bottom: 20px;
+}
+.section05 {
+	width:1000px;
+	font-size: 20px;
+	background-color: #ccffcc;
+	float: left;
+	padding: 10px;
+	border: solid 5px black;
+	border-spacing: 10px;
+	border-collapse: separate;
+	margin-bottom: 20px;
+}
+.section6 {
+  width:1000px;
+  font-size: 20px;
+  background-color: #ccffcc;
+  float: left;
+  padding: 30px;
+  border: solid 5px black;
+  border-spacing: 30px;
+  border-collapse: separate;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin: auto;
+  padding-top: : 10px;
+}

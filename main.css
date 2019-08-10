@@ -79,12 +79,12 @@ div.verticalNav a {
    text-align: center;
    width: 100%;
 }  
-
 /* Pseudo-class, works for state when mouse is hovering over link */
 li a:hover {
   box-shadow: 5px 5px 5px 5px #888888;
   background-color: #989898;
   color: white;
+  transform: scale(1.1);
 }
 li a:active {
   color: black;
@@ -92,10 +92,6 @@ li a:active {
 a:visited {
   color: black;
 }
-/*
-.class1 img {
-	float: right;
-}*/
 div.class1 hr {
     width: 100%;
 	margin-left: auto;
@@ -103,7 +99,6 @@ div.class1 hr {
 	height: 40px;
 	background-color: #666;
 }
-
 div.classResume p {
 	font-size: 18px;
 	margin-left: 210px;

@@ -16,15 +16,12 @@
 	div.s1 img {
 		margin-top: 80px;
 	}
-	
 }
-
 @media screen and (max-width: 950px) {
 	
 	div.s1 img {
 	}
 }
-
 @media screen and (max-width: 550px) {
 	
 	div.head {

@@ -98,11 +98,11 @@
 		font-size: 20px;
 	}
 	div.web {
+		margin-top: 0px;
 		font-size: 30px;
 		display: inline;
 	}
 	div.web h3 {
-		margin-top: 0px;
 		margin-left: 52px;
 		margin-bottom: 0px;
 	}

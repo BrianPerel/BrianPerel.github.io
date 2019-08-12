@@ -102,8 +102,9 @@
 		display: inline;
 	}
 	div.web h3 {
+		margin-top: 0px;
 		margin-left: 52px;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 	div.websites p {
 		margin-top: 0px;

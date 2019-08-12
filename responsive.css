@@ -97,7 +97,9 @@
 		padding-left: 25px;
 		font-size: 20px;
 	}
+	/*
 	div.web {
+		margin-top: 0px;
 		font-size: 30px;
 		display: inline;
 	}
@@ -105,6 +107,7 @@
 		margin-left: 52px;
 		margin-bottom: 20px;
 	}
+	*/
 	div.websites p {
 		margin-top: 0px;
 		width: 90%;

@@ -84,7 +84,7 @@ li a:hover {
   box-shadow: 5px 5px 5px 5px #888888;
   background-color: #989898;
   color: white;
-  transform: scale(1.1);
+  transform: scale(1.09);
 }
 li a:active {
   color: black;
@@ -99,6 +99,10 @@ div.class1 hr {
 	height: 40px;
 	background-color: #666;
 }
+div.res-vm {
+	font-size: 35px;
+	margin-left: 400px;
+}
 div.classResume p {
 	font-size: 18px;
 	margin-left: 210px;
@@ -109,6 +113,11 @@ div.resume_hr {
 	height: 3px;
 	background-color: black;
 	margin-left: 80px;
+}
+div.web {
+	font-size: 35px;
+	margin-left: 500px;
+	margin-bottom: 15px;
 }
 div.websites {
 	float: right;

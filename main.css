@@ -50,13 +50,6 @@ div.class1 p {
 	float: left;
 }
 
-/*
-.gradient {
-	margin-top: 30px;
-	height: 6px;
-	background: linear-gradient(orange, green);
-}*/
-
 div.verticalNav > ul > li {
 	font-size: 18px;
 	padding-bottom: 3px;

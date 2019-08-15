@@ -30,7 +30,7 @@
 		margin-left: 4px;
 	}
 	div.gradient {
-		display: hide;
+		visibility: hidden;
 	}
 	div.verticalNav {
 		margin-left: 20%;

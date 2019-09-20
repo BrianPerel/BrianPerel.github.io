@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-	/* background-color: #FFFFC2; */
+	/* background-color: #FFFFC2; -> Yellow */
 	background-color: #707070;
 	max-width: 1100px;
 	margin: auto;
@@ -9,6 +9,7 @@ body {
 div.mainDiv1 {
 	background-color: #ececec;
 	width: 100%;
+	border-radius: 30px;
 }
 div.mainDiv1::after {
 	clear: both;
@@ -17,6 +18,8 @@ div.mainDiv1::after {
 div.mainDiv2 {
 	background-color: #ececec;
 	width: 100%;
+		border-radius: 30px;
+
 }
 div.mainDiv2::after {
 	clear: both;
@@ -32,6 +35,8 @@ header {
 	border: solid green;
 	box-shadow: 5px 5px 5px 5px #888888;
 	font-size: 16px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 header h1 {
 	font-family: Curlz mt; /* Verdana */
@@ -50,7 +55,7 @@ div.class1 p {
 	margin-right: 10px;
 	float: left;
 }
-.gradient {
+div.gradient {
 	margin-top: 30px;
 	height: 6px;
 	background: linear-gradient(orange, green);
@@ -80,6 +85,7 @@ div.verticalNav a {
    text-align: center;
    width: 100%;
 }  
+
 /* Pseudo-class, works for state when mouse is hovering over link */
 li a:hover {
   box-shadow: 5px 5px 5px 5px #888888;
@@ -164,4 +170,6 @@ footer {
 	height: 40px;
 	padding-top: 5px;
 	padding-left: 5px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }

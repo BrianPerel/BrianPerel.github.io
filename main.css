@@ -23,7 +23,7 @@ div.mainDiv2::after {
 	display: table;
 	content: "";
 }
-div.head {
+header {
 	background-color: #7EE2FF;
 	padding: 0px 10px 30px 10px;
 	width: 97.7%;
@@ -33,7 +33,7 @@ div.head {
 	box-shadow: 5px 5px 5px 5px #888888;
 	font-size: 16px;
 }
-div.head h1 {
+header h1 {
 	font-family: Curlz mt; /* Verdana */
 	font-size: 54px;
 	margin-bottom: 0px;
@@ -54,7 +54,6 @@ div.class1 p {
 	margin-top: 30px;
 	height: 6px;
 	background: linear-gradient(orange, green);
-	
 }
 div.verticalNav > ul > li {
 	font-size: 18px;

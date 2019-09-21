@@ -3,7 +3,7 @@
 body {
 	/* background-color: #FFFFC2; -> Yellow */
 	background-color: #707070;
-	max-width: 1300px;
+	max-width: 1100px;
 	margin: auto;
 }
 div.mainDiv1 {
@@ -18,7 +18,7 @@ div.mainDiv1::after {
 div.mainDiv2 {
 	background-color: #ececec;
 	width: 100%;
-		border-radius: 30px;
+	border-radius: 30px;
 
 }
 div.mainDiv2::after {

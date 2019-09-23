@@ -91,7 +91,7 @@ li a:hover {
   box-shadow: 5px 5px 5px 5px #888888;
   background-color: #989898;
   color: white;
-  transform: scale(1.09);
+  transform: scale(1.06);
 }
 li a:active {
   color: black;

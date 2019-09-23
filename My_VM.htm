@@ -67,45 +67,11 @@
 			<center><div class="gradient">
 			</div></center> 
 			
-				<div class="back_to_top">
-					<h5><a href="#top">Back to top</a> &#x2191;</h5>
-				</div>
-				<br clear="all">
+			<br/><br/><br/><center><a href="#top" style="text-decoration: none;"><img src="up_arrow.png" style="display: inline;" width="10px" height="12px"></img><p style="display: inline; font-size: 18px">&nbsp;Back to top</p></a></center><br/><br/><br/>
 				
-		<!-- Current Date --> 
-		<script>
-		  var mydate = new Date() // Create Date Object 
-		  
-		  var year = mydate.getYear() // create year attribute of mydate object 
-		  
-		  if(year < 1000) 
-		      year += 1900
-		  
-      var month = mydate.getMonth() + 1 // create month attribute of mydate object 
-      if(month < 10)
-          month = "0" + month // if month is of single digit (january-september) prepend a 0
-      
-      var day = mydate.getDate() // create day attribute of mydate object 
-      if(day < 10)
-          day = "0" + day // if day is of single digit (1-9) prepend a 0
-      
-      // display results 
-      document.write('&nbsp;&nbsp;&nbsp;Current Date: ' + month + "/" + day  + "/" + year)
-      
-      
-      var time = new Date();
-      var hours = time.getHours();
-      var minutes = time.getMinutes();
-      var am_pm = hours >= 12 ? 'pm' : 'am';
-      hours = hours % 12;
-      hours = hours ? hours : 12;
-      minutes = minutes < 10 ? '0' + minutes : minutes;
-      
-      document.write('<br/>' + '&nbsp;&nbsp;&nbsp;Current Time: ' + hours + ':' + minutes + ' ' + am_pm)
-		</script><br/>
 		
 	<footer style="margin-top: 20px">
-			<p style="display: inline">&copy; Brian Perel &spades;</p>
+			<p style="display: inline">&copy; Brian Perel &spades; <script type="text/javascript">var current_year = new Date(); document.write(current_year.getFullYear());</script></p>
 			<a title="Github" href="https://github.com/BrianPerel" target="_blank"><img src="Gb.png" height=80% width=3%" alt="Gb" style="float: right; margin-top: 3px; margin-right: 6px"></a> 
 			<a title="facebook" href="https://www.facebook.com/brian.perel" target="_blank"><img src="facebook.png" height="100%" width="4%" alt="fb" style="float: right; margin-right: 5px"></a>
 			<a title="instagram" href="https://www.instagram.com/bperel1/" target="_blank"><img src="insta.png" height="90%" width="3%" alt="in" style="float: right; margin-right: 5px; margin-top: 3px"></a>

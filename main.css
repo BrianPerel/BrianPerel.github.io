@@ -26,6 +26,7 @@ div.mainDiv2::after {
 	display: table;
 	content: "";
 }
+
 header {
 	background-color: #7EE2FF;
 	padding: 0px 10px 30px 10px;

@@ -13,6 +13,17 @@
 		<link rel="stylesheet" href="responsive.css"> 
 		<link rel="icon" href="background.ico">
 		<title>Home | Brian Perel</title>
+		
+		<!-- jQuery - for css animation (page fade in) --> 
+		<script src="http://code.jquery.com/jquery-latest.min.js" charset="utf-8"> </script>
+		<script type="text/javascript">
+			$(document).ready( function(){
+				$("html").hide();
+				$("html").fadeIn("slow");  
+				$(window).unload(function(){});
+			});
+		</script>
+		
 	</head>
 	
 	<body><br/>
@@ -84,7 +95,7 @@
       
       document.write('<br/>' + '&nbsp;&nbsp;&nbsp;Current Time: ' + hours + ':' + minutes + ' ' + am_pm)
 		</script>
-
+		
 		<footer style="margin-top: 20px; border-top: #DAA520 solid 2px">		
 			<p style="display: inline">&copy; Brian Perel &spades; <script type="text/javascript">var current_year = new Date(); document.write(current_year.getFullYear());</script></p>
 			<a title="Github" href="https://github.com/BrianPerel" target="_blank"><img src="Gb.png" height=80% width=3%" alt="Gb" style="float: right; margin-top: 3px; margin-right: 6px"></a> 

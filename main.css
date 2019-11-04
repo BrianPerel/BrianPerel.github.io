@@ -55,6 +55,8 @@ div.class1 p {
 	margin-left: 20px;
 	margin-right: 10px;
 	float: left;
+	font-family: Georgia;
+
 }
 div.gradient {
 	margin-top: 30px;
@@ -75,7 +77,6 @@ div.verticalNav {
 	border: solid black 0.1em;
 	float: left; 
 	padding-right: 40px;
-	font-family:courier,arial,helvetica;
 }
 div.verticalNav a {
    background-color: #E0E0E0;
@@ -88,6 +89,7 @@ div.verticalNav a {
    width: 100%;
    text-decoration: none;
    font-family:helvetica;
+   padding-top: 2px;
 }  
 
 /* Pseudo-class, works for state when mouse is hovering over link */
@@ -118,6 +120,7 @@ div.classResume p {
 	font-size: 18px;
 	margin-left: 210px;
 	margin-right: 140px;
+	font-family: Georgia;
 }
 div.resume_hr {
 	width: 68%;
@@ -138,6 +141,7 @@ div.websites p {
 	float: left;
 	font-size: 19px;
 	padding-right: 120px;
+	font-family: Georgia;
 }
 div.websites hr {
 	color: orange;
@@ -154,6 +158,7 @@ div.vm p {
 	font-size: 18px;
 	width: 90%;
 	float: left;
+	font-family: Georgia;
 }
 div.back_to_top {
 	font-size: 20px;

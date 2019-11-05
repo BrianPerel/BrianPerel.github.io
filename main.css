@@ -3,23 +3,34 @@
 body {
 	/* background-color: #FFFFC2; -> Yellow */
 	background-color: #707070;
-	max-width: 1100px;
+	max-width: 1190px;
 	margin: auto;
 }
 div.mainDiv1 {
 	background-color: #ececec;
 	width: 100%;
 	border-radius: 30px;
+	margin-bottom: 4%;
+	margin-top: 1.5%;
 }
 div.mainDiv1::after {
 	clear: both;
 	display: table;
 }
+div.s1 img {
+	width: 34%;
+	height: 420px;
+	margin-top: 3%;
+	margin-right: 30px; 
+	margin-bottom: 20px;
+	float: right; 
+	border: solid 4px;
+}
 div.mainDiv2 {
 	background-color: #ececec;
 	width: 100%;
 	border-radius: 30px;
-
+	margin-bottom: 4%;
 }
 div.mainDiv2::after {
 	clear: both;
@@ -51,7 +62,7 @@ header h1 {
 }
 div.class1 {
 	float: left;
-	width: 46%;
+	width: 42%;
 }
 div.class1 p {
 	font-size: 19px;
@@ -125,6 +136,10 @@ div.classResume p {
 	margin-right: 140px;
 	font-family: Georgia;
 }
+div.classResume h1 {
+	margin-top: 3%;
+	margin-right: 100px; 
+}
 div.resume_hr {
 	width: 68%;
 	height: 3px;
@@ -178,6 +193,8 @@ footer p {
 	height: 40px;
 }
 footer {
+	margin-top: 20px;
+	border-top: #DAA520 solid 2px;
 	background-color: #dfceae;
 	height: 40px;
 	padding-top: 5px;

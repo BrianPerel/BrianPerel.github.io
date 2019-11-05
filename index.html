@@ -22,13 +22,15 @@
 				
 	</head>
 	
-	<body><br/>
+	<body>
 	<div class="mainDiv1">
 		<!-- Header -->
 		<header>
 			<center>
 				<h1>Brian Perel</h1>
-				<p><b>Contact Information: </b>Phone: (508)-215-**** Email: <a style="text-decoration: none" href="mailto: bperel@student.framingham.edu">bperel@student.framingham.edu</a><br/>Address: 723 Maple Drive, Los Angeles, CA, 90210</p>
+				<p><b>Contact Information: </b>Phone: (508)-215-**** Email: 
+				<a style="text-decoration: none" href="mailto: bperel@student.framingham.edu">
+				bperel@student.framingham.edu</a><br/>Address: 723 Maple Drive, Los Angeles, CA, 90210</p>
 			</center>
 		</header>		
 		
@@ -47,11 +49,18 @@
 		<div class="s"><h1><center>Introduction</center></h1></div>
 			  
 	  
-		<div class="s1"><img id = "img" src="Me.jpg" width="34%" height="420px" style="margin-top: 3%; margin-right: 30px; margin-bottom: 20px; float: right; border: solid 4px"></div>
+		<div class="s1"><img id = "img" src="Me.jpg"></div>
 
-		<div class="class1" style="width: 42%">
-			<p>Hi, welcome to my eportfolio website. My name is Brian, I am a student at Framingham State University studying Computer Science. I have a strong interest in computers and enjoy doing IT and programming. I currently work as an IT            technician at the FSU ITS department. I enjoy traveling, photography, technology, martial arts, hiking, rock-climbing, biking, parkour, and calisthenics. Here you will find my completed work for the CSCI 108,         Web Site Development course that I took in the Spring of 2019. This includes a lawn care website, a coffee shop website, my resume, a page about a company database project I built, and a page about a virtual machine I setup. The       purpose of this portfolio is to display my web site development skills that I have developed throughout this course.</p>
-			<p>This was a course about HTML, CSS, and JavaScript. It covers all the topics needed to create interactive web sites. I have also learned about the creative side of developing an attractive and likable website. This includes understanding what colors work together and what don't, choosing a good layout for a website, and the effects various shapes and boxes have on the asthetics of a webpage. I hope you enjoy my website!</p>
+		<div class="class1">
+			<p>Hi, welcome to my eportfolio website. My name is Brian, I am a student at Framingham State University studying Computer Science. 
+			I have a strong interest in computers and enjoy doing IT and programming. I currently work as an IT technician at the FSU ITS department. 
+			I enjoy traveling, photography, music, technology, martial arts, hiking, rock-climbing, biking, parkour, and calisthenics. 
+			Here you will find my completed work for the CSCI 108, Web Site Development course that I took in the Spring of 2019. 
+			This includes a lawn care website, a coffee shop website, my resume, a page about a company database project I built, and a page about a virtual machine I setup.
+			The purpose of this portfolio is to display my web site development skills that I have developed throughout this course.</p>
+			<p>This was a course about HTML, CSS, and JavaScript. It covers all the topics needed to create interactive web sites. 
+			I have also learned about the creative side of developing an attractive and likable website. This includes understanding what colors work together and what don't,
+			choosing a good layout for a website, and the effects various shapes and boxes have on the asthetics of a webpage. I hope you enjoy my website!</p>
 		</div>
 		
 		<br clear="both">
@@ -59,42 +68,38 @@
 		<div class="back_to_top">
 			<h5 hidden><a href="#top">Back to top</a> &#x2191;</h5>
 		</div>
-		
-		<br/>
+	 <br/>
 
     <!-- Current Date --> 
 		<br/><br/><br/><script>
 		  var mydate = new Date() // Create Date Object 
-		  
 		  var year = mydate.getYear() // create year attribute of mydate object 
-		  
 		  if(year < 1000) 
 		      year += 1900
 		  
-      var month = mydate.getMonth() + 1 // create month attribute of mydate object 
-      if(month < 10)
-          month = "0" + month // if month is of single digit (january-september) prepend a 0
+		  var month = mydate.getMonth() + 1 // create month attribute of mydate object 
+		  if(month < 10)
+				month = "0" + month // if month is of single digit (january-september) prepend a 0
       
-      var day = mydate.getDate() // create day attribute of mydate object 
-      if(day < 10)
-          day = "0" + day // if day is of single digit (1-9) prepend a 0
+		  var day = mydate.getDate() // create day attribute of mydate object 
+		  if(day < 10)
+				day = "0" + day // if day is of single digit (1-9) prepend a 0
       
-      // display results 
-      document.write('&nbsp;&nbsp;&nbsp;Current Date: ' + month + "/" + day  + "/" + year)
+		  // display results 
+		  document.write('&nbsp;&nbsp;&nbsp;Current Date: ' + month + "/" + day  + "/" + year)
       
-      
-      var time = new Date();
-      var hours = time.getHours();
-      var minutes = time.getMinutes();
-      var am_pm = hours >= 12 ? 'pm' : 'am';
-      hours = hours % 12;
-      hours = hours ? hours : 12;
-      minutes = minutes < 10 ? '0' + minutes : minutes;
-      
-      document.write('<br/>' + '&nbsp;&nbsp;&nbsp;Current Time: ' + hours + ':' + minutes + ' ' + am_pm)
+		  var time = new Date();
+		  var hours = time.getHours();
+		  var minutes = time.getMinutes();
+		  var am_pm = hours >= 12 ? 'pm' : 'am';
+		  hours = hours % 12;
+		  hours = hours ? hours : 12;
+		  minutes = minutes < 10 ? '0' + minutes : minutes;
+		  
+		  document.write('<br/>' + '&nbsp;&nbsp;&nbsp;Current Time: ' + hours + ':' + minutes + ' ' + am_pm)
 		</script>
 		
-		<footer style="margin-top: 20px; border-top: #DAA520 solid 2px">		
+		<footer>		
 			<p style="display: inline">&copy; Brian Perel &spades; <script type="text/javascript">var current_year = new Date(); document.write(current_year.getFullYear());</script></p>
 			<a title="Github" href="https://github.com/BrianPerel" target="_blank"><img src="Gb.png" height=80% width=3%" alt="Gb" style="float: right; margin-top: 3px; margin-right: 6px"></a> 
 			<a title="facebook" href="https://www.facebook.com/brian.perel" target="_blank"><img src="facebook.png" height="100%" width="4%" alt="fb" style="float: right; margin-right: 5px"></a>
@@ -102,8 +107,7 @@
 			<a title="Linkedin" href="https://www.linkedin.com/in/brianperel/" target="_blank"><img src="linkedin.png" height="80%" width="3%" alt="li" style="float: right; margin-right: 10px; margin-top: 4.5px"></a>
 			<a title="Youtube" href="https://www.youtube.com/channel/UC3FZmANc76aMCXdbcOq3NhA?view_as=subscriber" target="_blank"><img src="youtube.png" height="80%" width="3.2%" style="float: right; margin-right: 9px; margin-top: 4.5px"></a>
 		</footer>
-    </div><br/><br/>
+    </div>
 			
-
 	</body>
 </html>

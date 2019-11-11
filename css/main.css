@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
+
 body {
 	/* background-color: #FFFFC2; -> Yellow */
 	background-color: #707070;
 	max-width: 1190px;
 	margin: auto;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	border-radius: 50px;
 }
 div.mainDiv1 {
 	background-color: #ececec;
@@ -62,6 +65,7 @@ div.project p {
 }
 header {
 	text-align: center;
+	vertical-align: center;
 	background-color: #7EE2FF;
 	padding: 0px 10px 30px 10px;
 	width: 97.7%;
@@ -111,6 +115,7 @@ div.verticalNav {
 	border: solid black 0.1em;
 	float: left; 
 	padding-right: 40px;
+	list-style-type: none;
 }
 div.verticalNav a {
    background-color: #E0E0E0;

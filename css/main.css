@@ -13,8 +13,7 @@ div.mainDiv1 {
 	background-color: #ececec;
 	width: 100%;
 	border-radius: 30px;
-	margin-bottom: 4%;
-	margin-top: 1.5%;
+	margin: 1.5% 0 4% 0;
 }
 div.mainDiv1::after {
 	clear: both;
@@ -90,9 +89,7 @@ div.class1 {
 }
 div.class1 p {
 	font-size: 19px;
-	margin-top: 0px;
-	margin-left: 20px;
-	margin-right: 10px;
+	margin: 0 5% 0 5%;
 	float: left;
 	font-family: Georgia;
 }
@@ -106,15 +103,13 @@ div.verticalNav > ul > li {
 	padding-bottom: 3px;
 }
 div.verticalNav {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-left: 5px;
+	padding: 10px 40px 10px 0px;
+	margin-left: 6px;
 	background-color: #7EE2FF;
 	height: auto;
 	width: 140px;
 	border: solid black 0.1em;
 	float: left; 
-	padding-right: 40px;
 	list-style-type: none;
 }
 div.verticalNav a {

@@ -5,6 +5,23 @@
 	By: Brian Perel  
 -->
 
+
+
+<script>
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+		alert('Please View My Site On A Desktop');
+  } else {}
+}
+
+var x = window.matchMedia("(max-width: 1050px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+</script>
+
+
+
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -21,6 +38,7 @@
 		<link rel="icon" href="icons_pics/background.ico">
 		<title>Home | Brian Perel</title>
 	</head>
+	
 	
 	<body>
 	<div class="mainDiv1">
@@ -47,7 +65,7 @@
 		
 		<h1><center>Introduction</center></h1>
 			  
-		<aside><div class="s1"><img id="img" src="icons_pics/Me.jpg"></div></aside>
+		<aside><img id="img" src="icons_pics/Me.jpg" alt='Me'></aside>
 
 		<div class="class1">
 			<article><p>Hi, welcome to my eportfolio website. My name is Brian, I am a student at Framingham State University studying Computer Science. 

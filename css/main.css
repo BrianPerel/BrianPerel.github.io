@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 body {
 	/* background-color: #FFFFC2; -> Yellow */
 	background-color: #707070;
@@ -19,7 +18,7 @@ div.mainDiv1::after {
 	clear: both;
 	display: table;
 }
-div.s1 img {
+aside img {
 	width: 34%;
 	height: 420px;
 	margin-top: 3%;

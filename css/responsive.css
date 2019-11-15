@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 1017px) {
+@media screen and (max-width: 1050px) {
 	
 	div.class1 p {
 	font-size: 19px;
@@ -16,14 +16,29 @@
 	div.s1 img {
 		margin-top: 80px;
 	}
+	
+	div.message {
+		display: none;
+	}
+	body * {
+		display: none;
+	}
 }
 @media screen and (max-width: 950px) {
 	
-	div.s1 img {
+	body * {
+    display: none;
 	}
+
 }
 @media screen and (max-width: 550px) {
 	
+	body * {
+    display: none;
+	}
+	
+	
+	/*
 	div.head {
 		height: 170px;
 		width: 88%;
@@ -97,7 +112,6 @@
 		padding-left: 25px;
 		font-size: 20px;
 	}
-	/*
 	div.web {
 		margin-top: 0px;
 		font-size: 30px;
@@ -107,7 +121,6 @@
 		margin-left: 52px;
 		margin-bottom: 0px;
 	}
-	*/
 	div.websites p {
 		margin-top: 0px;
 		width: 90%;
@@ -126,4 +139,5 @@
 	div.classResume h2 {
 		margin-right: 80px;
 	}
+	*/
 }

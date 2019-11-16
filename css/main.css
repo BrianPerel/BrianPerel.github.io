@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+#printableArea {
+	display: none;
+}
+
 body {
 	/* background-color: #FFFFC2; -> Yellow */
 	background-color: #707070;

@@ -21,6 +21,13 @@
 		display: none;
 	}
 	
+	#printableArea {
+		display: block;
+		text-align: center;
+		color: white;
+		text-shadow: black 2px 2px;	
+	}
+	
 }
 @media screen and (max-width: 950px) {
 	
@@ -31,7 +38,8 @@
 	#printableArea {
 		display: block;
 		text-align: center;
-		font: white;
+		color: white;
+		text-shadow: black 2px 2px;	
 	}
 
 }

@@ -102,7 +102,7 @@ x.addListener(myFunction) // Attach listener function on state changes
 				day = "0" + day // if day is of single digit (1-9) prepend a 0
       
 		  // display results 
-		  document.write('&nbsp;&nbsp;&nbsp;Current Date: ' + month + "/" + day  + "/" + year)
+		  document.write('&nbsp;&nbsp;&nbsp;Current date & time:<br/>' + '&nbsp;&nbsp;&nbsp;' + month + "/" + day  + "/" + year)
       
 		  var time = new Date();
 		  var hours = time.getHours();
@@ -112,11 +112,11 @@ x.addListener(myFunction) // Attach listener function on state changes
 		  hours = hours ? hours : 12;
 		  minutes = minutes < 10 ? '0' + minutes : minutes;
 		  
-		  document.write('<br/>' + '&nbsp;&nbsp;&nbsp;Current Time: ' + hours + ':' + minutes + ' ' + am_pm)
+		  document.write('<br/>' + '&nbsp;&nbsp;&nbsp;' + hours + ':' + minutes + ' ' + am_pm)
 		</script>
 		
 		<footer>		
-		<p style="display: inline"><em>&copy; Brian Perel &spades; <script type="text/javascript">var current_year = new Date(); document.write(current_year.getFullYear());</script></em></p>
+		<p style="display: inline"><em>&copy; <script type="text/javascript">var current_year = new Date(); document.write(current_year.getFullYear());</script> created by Brian Perel &spades;</em></p>
 			<a title="Github" href="https://github.com/BrianPerel" target="_blank"><img src="icons_pics/Gb.png" height=80% width=3%" alt="Gb" style="float: right; margin-top: 3px; margin-right: 6px"></a> 
 			<a title="facebook" href="https://www.facebook.com/brian.perel" target="_blank"><img src="icons_pics/facebook.png" height="100%" width="4%" alt="fb" style="float: right; margin-right: 5px"></a>
 			<a title="instagram" href="https://www.instagram.com/bperel1/" target="_blank"><img src="icons_pics/insta.png" height="90%" width="3%" alt="in" style="float: right; margin-right: 5px; margin-top: 3px"></a>

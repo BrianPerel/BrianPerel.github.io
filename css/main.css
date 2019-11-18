@@ -12,6 +12,9 @@ body {
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 	border-radius: 50px;
 }
+.hidden {
+	display: none;
+}
 div.mainDiv1 {
 	background-color: #ececec;
 	width: 100%;

@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 
-<!-- For displaying message for tablet and phone view -->
-<p id='printableArea'>Please View My Site On A Desktop</p>
-<script>
-function myFunction(x) {
-  if (x.matches) { // If media query matches
-		alert('Please View My Site On A Desktop');
-  } else {}
-}
 
-var x = window.matchMedia("(max-width: 1050px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
-</script>
 
 
 <html lang="en">
@@ -30,7 +18,22 @@ x.addListener(myFunction) // Attach listener function on state changes
 		<link rel="stylesheet" href="css/responsive.css"> 
 		<link rel="icon" href="icons_pics/background.ico">
 		<title>Resume | Brian Perel</title>
+		
 	</head>
+	
+	<!-- For displaying message for tablet and phone view -->
+	<p id='printableArea'>Please View My Site On A Desktop</p>
+	<script>
+	function myFunction(x) {
+	  if (x.matches) { // If media query matches
+			alert('Please View My Site On A Desktop');
+	  } else {}
+	}
+
+	var x = window.matchMedia("(max-width: 1050px)")
+	myFunction(x) // Call listener function at run time
+	x.addListener(myFunction) // Attach listener function on state changes
+	</script>
 	
 	<body>
 		<div class="mainDiv1">

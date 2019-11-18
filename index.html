@@ -37,11 +37,26 @@ x.addListener(myFunction) // Attach listener function on state changes
 		<link rel="stylesheet" href="css/responsive.css"> 
 		<link rel="icon" href="icons_pics/background.ico">
 		<title>Home | Brian Perel</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		
+		<script> 
+			$(document).ready(function(){
+			$('.hidden').slideDown(2500);
+			});
+		</script>
+		
+		<style>
+			.hidden {
+				display: none;
+			}
+		</style>
 	</head>
 	
 	
 	<body>
 	<div class="mainDiv1">
+		<div class="hidden">
 		<!-- Header -->
 		<header>
 				<h1>Brian Perel</h1>
@@ -124,6 +139,7 @@ x.addListener(myFunction) // Attach listener function on state changes
 			<a title="Youtube" href="https://www.youtube.com/channel/UC3FZmANc76aMCXdbcOq3NhA?view_as=subscriber" target="_blank"><img src="icons_pics/youtube.png" height="80%" width="3.2%" style="float: right; margin-right: 9px; margin-top: 4.5px"></a>
 		</footer>
     </div>
+	</div>
 			
 	</body>
 </html>

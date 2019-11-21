@@ -57,56 +57,31 @@
 		</div>
 		
 		<center>
-		<h2 style="margin-right: 100px"><i>Online Business Database (SQL)</i></h2>
+		<h2 style="margin-right: 100px"><i>client-server ftp cmd processor program</i></h2>
 		</center>
 		
 		<div class="project">
-			<section><p>For this project, I developed a database for an online business using Oracle's MySQL DBMS<br/><br/>
-			<em><u>Database constraints:</u></em><br/><br/>
-			-&nbsp;The business has employees identified by a unique employee number,<br/> their first and last names, and a city where they are located<br/>
-			<br/>-&nbsp;The customers of the business are identified by a unique customer number,<br/> their first and last names, and a city where they are located.<br/>
-			<br/>-&nbsp;The items being sold by the business are identified by a unique item number,<br/> an item name, their price, and quantity in stock<br/>
-			<br/>-&nbsp;Each order placed by a customer is taken by an employee and is given a unique order number<br/><br/><hr><br/>
-		
-			<br/><p style='display: inline'><em>Database Design:</em></p><a href='db_pics/ER_diagram.png' target='_blank' style='font-size: 18px; margin-left: 3%'>1. View Entity Relationship Diagram</a>
-			<a href='db_pics/relational_db_schema.png' style='margin-left: 3%; font-size: 18px' target='_blank'>2. View Relational Database Schema</a>
-			<br/><br/><hr><p><em>My database With Query Operations:</em></p>
+			<section><p>For this project, I developed a client-server networking program in C that demonstrates the ftp protocol.<br/><br/> 
+			-&nbsp;The client program connects to the server side program<br/>
+			-&nbsp;User must enter a valid ftp username and password pair<br/>
+			-&nbsp;User enters cmd with arg if required, cmd is then sent to server<br/>
+			-&nbsp;User server checks cmd and argument, performs appropriate implementation and returns message to client<br/>
+			-&nbsp;Client program prints reply message to user<br/><br/>
+			Link to project on Github: <a href="https://github.com/BrianPerel/Company-employee-program" target="_blank">https://github.com/BrianPerel/client-server-ftp</a></p>
+
 			
-			<p>Table Creation Statements</p>
-			<img src='db_pics/db_table_creation1.png' height='80%' width='68%' style='margin-left: 280px'></img>
+			<p>Images of program in putty (UNIX server shell emulator),<br/> running both the client and server side in 2 seperate terminals:</p><br/><br/><br/>
+			<pre style='font-family: Helvetica Neue, Helvetica, Arial, sans-serif'>									client-side:												server-side:</pre>
+			<img src='ftp pics/1.png' height='80%' width='90%' style='margin-left: 62px'></img>
+			<img src='ftp pics/2.png' height='80%' width='90%' style='margin-left: 62px'></img>
+			<img src='ftp pics/3.png' height='80%' width='90%' style='margin-left: 62px'></img>
+			<img src='ftp pics/4.png' height='80%' width='90%' style='margin-left: 62px'></img>
+			<img src='ftp pics/5.png' height='80%' width='90%' style='margin-left: 62px'></img>
+			<img src='ftp pics/6.png' height='80%' width='90%' style='margin-left: 62px'></img>
+			<img src='ftp pics/7.png' height='80%' width='90%' style='margin-left: 62px'></img>
+			<img src='ftp pics/8.png' height='80%' width='90%' style='margin-left: 62px'></img>
+
 			
-			<br/><p>Table Insert Statements</p>
-			<img src='db_pics/db_table_creation2.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: Retrieve full details of all customers</p>
-			<img src='db_pics/db_table_creation3.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: Retrieve the item info of all items ordered by the customer “Tom Brady”</p>
-			<img src='db_pics/db_table_creation4.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: Retrieve the order numbers processed by the employee “Tony Romo”</p>
-			<img src='db_pics/db_table_creation5.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: Retrieve the names of customers who have ordered at least one item that costs<br/> more than $30.00</p>
-			<img src='db_pics/db_table_creation6.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: Retrieve the names of customers who order items only from employees who live in<br/> the same city as themselves</p>
-			<img src='db_pics/db_table_creation7.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: Retrieve the names and cities of employees who have taken orders for items costing<br/> more than $50.00</p>
-			<img src='db_pics/db_table_creation8.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statement: Retrieve the names of customers who have orders shipped the same day</p>
-			<img src='db_pics/db_table_creation10.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: Retrieve the names of customers who have not placed an order</p>
-			<img src='db_pics/db_table_creation11.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: Retrieve a list of item numbers, item names, and total quantity ordered for each item</p>
-			<img src='db_pics/db_table_creation12.png' height='80%' width='68%' style='margin-left: 280px'></img>
-			
-			<p>Query Statements: For each employee, retrieve his/her number, name, and total sales (in dollars)</p>
-			<img src='db_pics/db_table_creation13.png' height='80%' width='68%' style='margin-left: 280px'></img>
 
 		</div>
 

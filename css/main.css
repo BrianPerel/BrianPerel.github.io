@@ -62,7 +62,7 @@ div.app a {
 }
 div.project p {
 	margin-top: 4%;
-	font-family: Georgia;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	margin-left: 230px; 
 	font-size: 17px;
 	margin-left: 280px; 
@@ -189,7 +189,7 @@ div.websites p {
 	float: left;
 	font-size: 19px;
 	padding-right: 120px;
-	font-family: Georgia;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 div.websites hr {
 	color: orange;
@@ -221,7 +221,7 @@ div.vm p {
 	font-size: 18px;
 	width: 90%;
 	float: left;
-	font-family: Georgia;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 div.back_to_top {
 	font-size: 20px;

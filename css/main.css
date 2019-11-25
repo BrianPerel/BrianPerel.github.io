@@ -16,7 +16,7 @@ body {
 	display: none;
 }
 div.mainDiv1 {
-	background-color: #ececec;
+	background-color: #F8F8F8;
 	width: 100%;
 	border-radius: 30px;
 	margin: 1.5% 0 4% 0;
@@ -35,7 +35,7 @@ aside img {
 	border: solid 4px;
 }
 div.mainDiv2 {
-	background-color: #ececec;
+	background-color: #F8F8F8;
 	width: 100%;
 	border-radius: 30px;
 	margin-bottom: 4%;
@@ -210,6 +210,7 @@ div.lastPicture img{
 	 filter: brightness(1.4);
 }
 div.vm {
+	background-color: #F8F8F8;
 	float: right;
 	width: 80%;
 }

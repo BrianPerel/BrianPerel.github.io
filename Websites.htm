@@ -3,6 +3,7 @@
 
 <html lang="en">
 	<head>
+		<title>Websites | Brian Perel</title>
 		<meta charset="UTF-8">
 		<meta="Brian Perel, IT, Programming, CS, Calisthenics, Music"/>
 		<meta name="websites" content="websites">
@@ -13,125 +14,221 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" type="text/css" href="css/main.css" media="all">
-		<link rel="stylesheet" href="css/responsive.css"> 
 		<link rel="icon" href="icons_pics/background.ico">
-		<title>Websites | Brian Perel</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
 	</head>
 	
-	<!-- For displaying message for tablet and phone view -->
-	<p id='printableArea'>Please View My Site On A Desktop</p>
-	<script>
-	function myFunction(x) {
-	  if (x.matches) { // If media query matches
-			alert('Please View My Site On A Desktop');
-	  } else {}
-	}
-
-	var x = window.matchMedia("(max-width: 1050px)")
-	myFunction(x) // Call listener function at run time
-	x.addListener(myFunction) // Attach listener function on state changes
-	</script>
 	
 	<body>
-		<div class="mainDiv2">
-		<!-- Header -->
-		<header>
-				<h1>Brian Perel</h1>
-				<address><p><b>Contact Information: </b><a style="text-decoration: none" href="mailto: bperel@student.framingham.edu">
-				bperel@student.framingham.edu</a><br/>Address: Ashland, MA, 01721</p></address>
-		</header>			
+		<div class="jumbotron text-center">
+			<header><br/>
+				<h1><b>Brian Perel</b></h1>
+				<address><em><h6><b>Contact Information: </b><a style="text-decoration: none" href="mailto: bperel@student.framingham.edu">
+				bperel@student.framingham.edu</a><br/>Address: Ashland, MA, 01721</h6>
+				</em></address>
+			</header>
+		</div>		
+		<hr class="new4">	
 			
-		  <hr color=#DAA520 style="margin-top: 20px; margin-bottom: 20px">
-			<div class="verticalNav">
-				<ul type="none">
-					<li><a href="index.html">Homepage</a></li>
-					<li><a href="Websites.htm">Websites</a></li>
-					<li><a href="My_resume.htm">Resume</a></li>
-					<li><a href="Project.htm">Project 1</a></li>
-					<li><a href="Project2.htm">Project 2</a></li>
-					<li><a href="Project3.htm">Project 3</a></li>
-					<li><a href="Project4.htm">Project 4</a></li>
-					<li><a href="My_VM.htm">VM</a></li>
-				</ul>
+		<nav class="navbar navbar-expand-sm justify-content-center ">
+			<nav class="navbar navbar-expand-sm">
+			  <button class="navbar-toggler bg-dark navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="nav justify-content-center">
+					<li class="nav-item active">
+					  <a class="nav-link" href="index.html">Homepage</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="Websites.htm">Websites</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="My_resume.htm">Resume</a>
+					</li>
+					
+					<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Projects</a>
+					<div class="dropdown-menu">
+						  <a class="nav-link" class="dropdown-item" href="Project1.htm">Project 1</a>
+						  <a class="nav-link" class="dropdown-item" href="Project2.htm">Project 2</a>
+						  <a class="nav-link" class="dropdown-item" href="Project3.htm">Project 3</a>
+						  <a class="nav-link" class="dropdown-item" href="Project4.htm">Project 4</a></div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="My_VM.htm">Virtual Machines</a>
+					</li>
+    			</ul>
+			  </div>  
+			 </nav>
+		 </nav>
+		<br>
+		 
+		<div class="container-fluid">
+			<div class="row">
+				<div class='col'>
+					<center><h2 id='web'>My Websites</h2></center><br/>
+				</div>
 			</div>
-			
-			<div class="web">
-				<h3>My Websites</h3>
-			</div>
-			
-			<div class="websites">
-				<section><p>On this page you will find screenshots and reflections of my websites built for my web site development course. Over the course of the class,
-				I created a coffee shop website, a lawn care website, and this portfolio to showcase my skills and work. For each project, you will find a reflection 
-				in which I explain what worked, what didn't work, how I could have improved these projects and a link.</p></section>
-				
-				<br/><br/><br/><br/><h2 style="margin-top: 120px">1. Coffee Shop Website</h2>
-				<section><p><i>My Coffee Shop</i> reflection:</p><br/>
-				<p>This was a four-part project in which I created a homepage, a specialty page, a performer page, and an entertainment page for the coffee shop.
-				What I think worked well were the choices I made in choosing the right colors and layout for the website. What I think didn't work well was 
-				the placement of some of the content on the sites. I suppose with more experience I could blend my pages to have a more professional look.</p><br/><br/>
-				<p>For the main page of the site, I provided bookmarks that link to the various sections of the page. For the Specialty page, I provided information
-				about a special signature coffee drink the shop provides including its ingredients and recipe instructions. The Performer page discusses the setting of 
-				the stage in the shop and information about the music performer that comes to perform. The entertainment page lists the show times of the various entertainers 
-				that come to perform throughout the months. The site is about a superb coffee shop serving unique drinks.</p></section>  
-				
-				<a href="Coffee Shop Project/Coffee_shop.htm" target="_blank"><p><u>Coffee Shop website link</u></p></a>
-
-				<br clear="both">
-				<p style="margin-bottom: 4%"><i>Coffee Shop website screen shots:</i></p>
-				<img src="Screenshots/1.jpg"><hr/><br/><br/>
-				<img src="Screenshots/2.jpg"><hr/><br/><br/>
-				
-				<h2>2. Lawn Care Website</h2>
-				<p>My Lawn Care site reflection:</p><br/>
-				
-				<section><p>This was a nine-page group project site. The team members were Sean Lackeryram-Owen and Shannon Mattson. 
-				Each member created a form page and two other significant pages. Taking place over a three-week period, 
-				our team worked together to produce our lawn care site. What I think worked well was the placement of the 
-				background image of a grass field, having an abundant amount of content for the site, and having good quality pictures for the site.</p><br/>
-				<p>What I think didn't work well in the project was the excessive amount of boxed div's I used. If I was given more time for the project,
-				I would provide more information on the services our company provides. I would also talk more about what we do during different seasons.
-				Overall, this was a fun project where I got to gain a lot of experience with HTML and CSS formatting and styling.</p>
-				<a href="Lawn Care Project/Mainpage.htm" target="_blank"><p><u>Lawn Care website link</u></p></a></section>
-			 
-				<br clear="all">
-				<p style="margin-bottom: 4%"><i>Lawn Care website screen shots</i></p>
-				<img src="Screenshots/3.jpg"><hr/><br/><br/>
-				<img src="Screenshots/4.jpg"><hr/><br/><br/>
-				<img src="Screenshots/5.jpg"><hr/><br/><br/>
-				
-				<br/><br/><h2>3. My Portfolio Website</h2>
-				<br/><p>My Portfolio site reflection:</p><br/>
-				
-				<section><p>For the portfolio I am displaying my web development skill set attained through this class. What I learned is that web development is a creative field
-				that is largely about formatting and styling your web content. Choosing good color combinations, tiles, the right information to display, and an attractive              layout seems to come with experience. I've found that marketing and art skills are a plus in web design.</p>
-				<p>What I thought worked well for my portfolio was the choice of colors and layout I picked. Overall, the Eportfolio was a great way to bind all my projects
-				and display the impact this course has had on me.</p></section>
-				<br clear="both">
-				<a href="index.html" target="_blank"><p><u>My Portfolio website link</u></p></a>
-				<br clear="both">
-				<p style="margin-bottom: 4%">My Portfolio site screen shots</p>
-				
-				<img src="Screenshots/6.jpg"><hr/><br/><br/>
-				<img src="Screenshots/7.jpg"><hr/><br/><br/>
-				<img src="Screenshots/8.jpg"><hr/><br/><br/>
-				<img src="Screenshots/9.jpg"><hr/><br/><br/>
-				
-                <br/></div>
-				
-				<div class="lastPicture">
-    				<img src="icons_pics/Me2.jpg">
-    			</div>
-				
-				<br/><br/><br/><center><a href="#top" style="text-decoration: none;"><img src="icons_pics/up_arrow.png" style="display: inline;" width="10px" height="12px"></img><p style="display: inline; font-size: 18px">&nbsp;Back to top</p></a></center><br/><br/><br/>
+		</div>
 		
-		<footer>		
-			<p style="display: inline"><em>&copy; <script type="text/javascript">var current_year = new Date(); document.write(current_year.getFullYear());</script> created by Brian Perel &spades;</em></p>
-			<a title="Github" href="https://github.com/BrianPerel" target="_blank"><img src="icons_pics/Gb.png" height=80% width=3%" alt="Gb" style="float: right; margin-top: 3px; margin-right: 6px"></a> 
-			<a title="facebook" href="https://www.facebook.com/brian.perel" target="_blank"><img src="icons_pics/facebook.png" height="100%" width="4%" alt="fb" style="float: right; margin-right: 5px"></a>
-			<a title="instagram" href="https://www.instagram.com/bperel1/" target="_blank"><img src="icons_pics/insta.png" height="90%" width="3%" alt="in" style="float: right; margin-right: 5px; margin-top: 3px"></a>
-			<a title="Linkedin" href="https://www.linkedin.com/in/brianperel/" target="_blank"><img src="icons_pics/linkedin.png" height="80%" width="3%" alt="li" style="float: right; margin-right: 10px; margin-top: 4.5px"></a>
-			<a title="Youtube" href="https://www.youtube.com/channel/UC3FZmANc76aMCXdbcOq3NhA?view_as=subscriber" target="_blank"><img src="icons_pics/youtube.png" height="80%" width="3.2%" style="float: right; margin-right: 9px; margin-top: 4.5px"></a>
-		</footer></div>
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<section><p>On this page you will find screenshots and reflections of my websites built for my web site development course. Over the course of the class,
+					I created a coffee shop website, a lawn care website, and this portfolio to showcase my skills and work. For each project, you will find a reflection 
+					in which I explain what worked, what didn't work, how I could have improved these projects and a link.</p></section>
+					
+					<br><br><h2>1. Coffee Shop Website</h2>
+					<section><p><i>My Coffee Shop</i> reflection:</p><br/>
+					<p>This was a four-part project in which I created a homepage, a specialty page, a performer page, and an entertainment page for the coffee shop.
+					What I think worked well were the choices I made in choosing the right colors and layout for the website. What I think didn't work well was 
+					the placement of some of the content on the sites. I suppose with more experience I could blend my pages to have a more professional look.</p><br/><br/>
+					<p>For the main page of the site, I provided bookmarks that link to the various sections of the page. For the Specialty page, I provided information
+					about a special signature coffee drink the shop provides including its ingredients and recipe instructions. The Performer page discusses the setting of 
+					the stage in the shop and information about the music performer that comes to perform. The entertainment page lists the show times of the various entertainers 
+					that come to perform throughout the months. The site is about a superb coffee shop serving unique drinks.</p></section>  
+					
+					<a href="Coffee Shop Project/Coffee_shop.htm" target="_blank"><p><u>Coffee Shop website link</u></p></a>
+
+					<br clear="both">
+					<p style="margin-bottom: 4%"><i>Coffee Shop website screen shots:</i></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<img src="Screenshots/1.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<img src="Screenshots/2.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<h2>2. Lawn Care Website</h2>
+					<p>My Lawn Care site reflection:</p><br/>
+				
+					<section><p>This was a nine-page group project site. The team members were Sean Lackeryram-Owen and Shannon Mattson. 
+					Each member created a form page and two other significant pages. Taking place over a three-week period, 
+					our team worked together to produce our lawn care site. What I think worked well was the placement of the 
+					background image of a grass field, having an abundant amount of content for the site, and having good quality pictures for the site.</p><br/>
+					<p>What I think didn't work well in the project was the excessive amount of boxed div's I used. If I was given more time for the project,
+					I would provide more information on the services our company provides. I would also talk more about what we do during different seasons.
+					Overall, this was a fun project where I got to gain a lot of experience with HTML and CSS formatting and styling.</p>
+					<a href="Lawn Care Project/Mainpage.htm" target="_blank"><p><u>Lawn Care website link</u></p></a></section>
+				 
+					<br clear="all">
+					<p style="margin-bottom: 4%"><i>Lawn Care website screen shots</i></p>
+				</div>
+			</div>
+		</div>
+					
+		<div class="container">
+			<div class="row">
+				<div class='col'>				
+					<img src="Screenshots/3.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<img src="Screenshots/4.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>	
+					<img src="Screenshots/5.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>
+					
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<br/><br/><h2>3. My Portfolio Website</h2>
+					<br/><p>My Portfolio site reflection:</p><br/>
+					
+					<section><p>For the portfolio I am displaying my web development skill set attained through this class. What I learned is that web development is a creative field
+					that is largely about formatting and styling your web content. Choosing good color combinations, tiles, the right information to display, and an attractive              layout seems to come with experience. I've found that marketing and art skills are a plus in web design.</p>
+					<p>What I thought worked well for my portfolio was the choice of colors and layout I picked. Overall, the Eportfolio was a great way to bind all my projects
+					and display the impact this course has had on me.</p></section>
+					<br clear="both">
+					<a href="index.html" target="_blank"><p><u>My Portfolio website link</u></p></a>
+					<br clear="both">
+					<p style="margin-bottom: 4%">My Portfolio site screen shots</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<img src="Screenshots/6.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<img src="Screenshots/7.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<img src="Screenshots/8.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<img src="Screenshots/9.jpg" class="img-fluid"><hr/><br/><br/>
+				</div>
+			</div>
+		</div>	
+		<br/>
+					
+		<div class="container">
+			<div class="row">
+				<div class='col'>
+					<img src="icons_pics/Me2.jpg" class="img-thumbnail">
+				</div>
+			</div>
+		</div>	
+		
+		<br/><br/><br/><center><a href="#top" style="text-decoration: none;"><img src="icons_pics/up_arrow.png" style="display: inline;" width="10px" height="12px"></img><p style="display: inline; font-size: 18px">&nbsp;Back to top</p></a></center><br/><br/><hr/>
+			  
+	   <div class='footer text-center'>
+			<p class="text-black">&copy; <script type="text/javascript">var current_year = new Date(); document.write(current_year.getFullYear());</script> created by Brian Perel</p><br/>
+	   </div>
 	    
 	</body>
 </html>

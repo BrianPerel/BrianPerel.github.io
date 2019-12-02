@@ -17,9 +17,13 @@ hr.new4 {
   border: 1px solid #DAA520;
 }
 .carousel-inner img {
-      width: 100%;
-      height: 100%;
- }
+  width: 100%;
+  height: 100%;
+}
+.navbar a:hover {
+  background-color: #848484;
+  border-radius: 50%;
+}
 .fa-facebook {
   background: #3B5998;
   color: white;

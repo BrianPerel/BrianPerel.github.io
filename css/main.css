@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body {
-	/* background-color: #FFFFC2; -> Yellow */
 	background-color: #707070;
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }

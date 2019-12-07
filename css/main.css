@@ -15,6 +15,11 @@ div.hr_main {
 hr.new4 {
   border: 1px solid #DAA520;
 }
+.container pre {
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	font-weight: normal;
+}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -266,7 +271,6 @@ footer p {
 .footer {
 	border-top: #DAA520 solid 2px;
 	background: #dfceae;
-
 }
 
 @media only screen and (max-width: 574px) {

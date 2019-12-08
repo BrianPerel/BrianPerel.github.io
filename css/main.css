@@ -35,12 +35,6 @@ hr.new4 {
   height: 100%;
 }
 
-/*
-.navbar a:hover {
-  background-color: #848484;
-  border-radius: 50%;
-}*/
-
 .dropdown-menu a {
 	width: 65%;
 	margin: auto;
@@ -279,5 +273,8 @@ footer p {
 	}
 	#web {
 		margin-bottom: 8%;
+	}
+	#coursel-img {
+		margin-bottom: 22%;
 	}
 }

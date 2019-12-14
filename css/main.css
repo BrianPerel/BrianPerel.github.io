@@ -28,7 +28,17 @@ hr.new4 {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.dropdown:hover .dropdown-content {display: block}
+.dropdown:hover .dropdown-content {
+	display: block; 
+	width: 80%
+}
+
+.dropdown:hover .dropdown-content a {
+ width: 100%; 
+ text-align: center;
+ color: black;
+ display: block;
+}
 
 .carousel-inner img {
   width: 100%;
@@ -39,6 +49,8 @@ hr.new4 {
 	width: 65%;
 	margin: auto;
 	padding: auto;
+	color: black;
+	text-align: center;
 }
 .fa-facebook {
   background: #3B5998;

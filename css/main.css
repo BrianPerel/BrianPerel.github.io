@@ -10,7 +10,7 @@ body {
 div.jumbotron {
 	background-color: #DCDCDC; 
 	box-shadow: 5px 5px 5px 5px #888888;
-	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(0, 70, 40, 1.8) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 div.hr_main {
 	color: #DAA520;

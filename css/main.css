@@ -36,10 +36,8 @@ hr.new4 {
 .dropdown:hover .dropdown-content {
 	display: block; 
 	width: 80%
-	 border-bottom:1px solid #000;
-
+	border-bottom:1px solid #000;
 }
-
 .dropdown:hover .dropdown-content a {
  width: 80%; 
  text-align: center;

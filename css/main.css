@@ -178,7 +178,6 @@ div.verticalNav a {
    padding-top: 2px;
 }  
 
-
 /* Pseudo-class, works for state when mouse is hovering over link */
 li a:hover {
   box-shadow: 5px 5px 5px 5px #888888;

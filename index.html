@@ -3,6 +3,8 @@
 	By: Brian Perel  
 -->
 
+
+<!-- XHTML: forces strict html --> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 	
@@ -22,22 +24,31 @@
 	  <link rel="icon" href="icons_pics/favicon.ico" type="image/x-icon">
 	  
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	  <!-- Bootstrap --> 
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	
+	  <!-- JQuery --> 
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
-	<script> 
+	
+	  <!-- JQuery -->
+	  <script> 
 		$(document).ready(function(){
-		$('.hidden').slideDown(1500);
-		});		
-	</script>
+			$('.hidden').slideDown(1500);
+			
+			$("#img").mouseup(function(){
+			alert("Brian is at Griffith Park, Los Angeles!");
+			});
+		});		  
+	  </script>
 	
 	
-	<body style='background-color: #F8F8F8'>
+	<body>
 	<div class="hidden">
 	
 		<div class="jumbotron text-center">
@@ -101,14 +112,14 @@
 			  </div>  
 			 </nav>
 		 </nav>
-		<br>
-
+		<br>		
+		
 		<center>
 			<a href="https://github.com/BrianPerel" target='_blank' class="fa fa-github"></a>
 			<a href="https://www.facebook.com/brian.perel" target='_blank' class="fa fa-facebook"></a>
 			<a href="https://www.youtube.com/channel/UC3FZmANc76aMCXdbcOq3NhA?view_as=subscriber" target='_blank' class="fa fa-youtube"></a>
 			<a href="https://www.instagram.com/bperel1/" target='_blank' class="fa fa-instagram"></a>
-			<a href="https://www.linkedin.com/in/brianperel/" target=_blank' class="fa fa-linkedin"></a>
+			<a href="https://www.linkedin.com/in/brianperel/" target=_blank' class="fa fa-linkedin"></a></div>
 		</center>
 
 		<br/>	
@@ -143,6 +154,8 @@
   
 			</div>
 			
+		    <div class="hidden">
+
 			<!-- Current Date --> 
 			<br/><br/><script>
 			  var mydate = new Date() // Create Date Object 
@@ -173,7 +186,7 @@
 			</script>
 			
 			<br/><center><a href="#top" style="text-decoration: none;"><button type="button" class="btn btn-light"><img src="icons_pics/up_arrow.png" style="display: inline;" width="10px" height="12px"></img><p style="display: inline; font-size: 18px">&nbsp;Back to top</button></p></a></center><br/>
-			
+		  </div>
 		</div> 
 		
 		<div class='footer text-center'>

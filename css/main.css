@@ -286,8 +286,14 @@ footer p {
 	border-top: #DAA520 solid 2px;
 	background: #dfceae;
 }
+.sp2 {
+	display: none;
+}
+.sp {
+	display: inline;
+}
 
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 674px) {
 	#img {
 		margin-top: 15%;
 	}
@@ -296,5 +302,31 @@ footer p {
 	}
 	#coursel-img {
 		margin-bottom: 22%;
+	}
+	.a1 {
+		position: absolute;
+		left: 220px;
+	}
+	.a2 {
+		position: absolute;
+		left: 220px;
+	}
+	.a3 {
+		position: absolute;
+		left: 220px;
+	}
+	.a4 {
+		position: absolute;
+		left: 220px;
+	}
+	.a5 {
+		position: absolute;
+		left: 220px;
+	}
+	.sp {
+		display: none;
+	}
+	.sp2 {
+		display: inline;
 	}
 }

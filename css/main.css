@@ -285,6 +285,7 @@ footer p {
 .footer {
 	border-top: #DAA520 solid 2px;
 	background: #dfceae;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 .sp2 {
 	display: none;

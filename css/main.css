@@ -139,6 +139,7 @@ div.class1 {
 	float: left;
 	margin-left: 2%;
 }
+
 div.class1 p {
 	font-size: 19px;
 	margin: 0 5% 0 5%;
@@ -149,10 +150,7 @@ div.gradient {
 	height: 6px;
 	background: linear-gradient(orange, green);
 }
-/* don't need blow class */ 
-div.verticalNav > ul > li {
-	padding-bottom: 3px;
-}
+
 .img-container {
     text-align: center;
 }

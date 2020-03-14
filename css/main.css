@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 body {
 	background-color: #F8F8F8;
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
@@ -12,6 +13,11 @@ div.jumbotron {
 	box-shadow: 5px 5px 5px 5px #888888;
 	box-shadow: rgba(0, 70, 40, 1.8) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
+
+#a:hover {
+  color: #ABFFC1;
+}
+
 div.hr_main {
 	color: #DAA520;
 	margin-top: 20px; 

@@ -1,3 +1,7 @@
+/*---------------------------------------
+     GENERAL               
+-----------------------------------------*/
+
 body {
   background-color: #F8F8F8;
   box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
@@ -5,113 +9,6 @@ body {
 
 .hidden {
   display: none;
-}
-
-div.jumbotron {
-  background-color: #DCDCDC;
-  box-shadow: 5px 5px 5px 5px #888888;
-  box-shadow: #004628 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
-}
-
-#a:hover {
-  color: #ABFFC1;
-}
-
-div.hr_main {
-  color: #DAA520;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-hr.new4 {
-  border: 1px solid #DAA520;
-}
-
-.container pre {
-  font-family: Helvetica Neue;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  width: 80%;
-  border-bottom: 1px solid #000;
-}
-
-.dropdown:hover .dropdown-content a {
-  width: 80%;
-  text-align: center;
-  color: white;
-  display: block;
-  font-size: 17px;
-  border-bottom: 1px solid #000;
-}
-
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
-}
-
-.dropdown-menu a {
-  width: 80%;
-  margin: auto;
-  color: white;
-  text-align: center;
-  font-size: 17px;
-  border-bottom: 1px solid #000;
-}
-
-.dropdown-menu a:visited {
-  color: white;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-github {
-  background: #6a0dad;
-  color: white;
-}
-
-.fa {
-  padding: 15px;
-  padding-right: 25px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.7;
 }
 
 div.mainDiv1 {
@@ -160,7 +57,6 @@ header {
 
 header h1 {
   font-family: Curlz mt;
-  /* Verdana */
   font-size: 54px;
 }
 
@@ -185,45 +81,6 @@ div.gradient {
   text-align: center;
 }
 
-div.verticalNav {
-  padding: 18px 40px 10px 0px;
-  margin-left: 10px;
-  background-color: #7EE2FF;
-  border: solid black 0.1em;
-  list-style-type: none;
-  border-radius: 15px;
-  margin-bottom: 10%;
-}
-
-div.verticalNav a {
-  background-color: #E0E0E0;
-  color: black;
-  display: block;
-  border: solid black 0.1em;
-  font-size: 16px;
-  line-height: 1.5em;
-  text-align: center;
-  text-decoration: none;
-  font-family: helvetica;
-  padding-top: 2px;
-}
-
-/* Pseudo-class, works for state when mouse is hovering over link */
-li a:hover {
-  box-shadow: 5px 5px 5px 5px #888888;
-  background-color: #989898;
-  color: white;
-  transform: scale(1.06);
-}
-
-li a:active {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
 div.class1 hr {
   width: 100%;
   margin-left: auto;
@@ -231,6 +88,10 @@ div.class1 hr {
   height: 40px;
   background-color: #666;
 }
+
+/*---------------------------------------
+      RESUME
+-----------------------------------------*/
 
 div.res-vm {
   font-size: 35px;
@@ -259,6 +120,10 @@ div.resume_hr {
   height: 3px;
   background-color: black;
 }
+
+/*---------------------------------------
+      WEBSITES            
+-----------------------------------------*/
 
 div.web {
   font-size: 35px;
@@ -299,6 +164,10 @@ div.lastPicture img {
   filter: brightness(1.4);
 }
 
+/*---------------------------------------
+      VIRTUAL MACHINES
+-----------------------------------------*/
+
 div.vm {
   float: right;
   width: 80%;
@@ -316,6 +185,152 @@ div.vm p {
   font-family: Georgia;
 }
 
+/*---------------------------------------
+      CONTACT             
+-----------------------------------------*/
+
+div.jumbotron {
+  background-color: #DCDCDC;
+  box-shadow: 5px 5px 5px 5px #888888;
+  box-shadow: #004628 20px 0px 25px, rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+#a:hover {
+  color: #ABFFC1;
+}
+
+div.hr_main {
+  color: #DAA520;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr.new4 {
+  border: 1px solid #DAA520;
+}
+
+.container pre {
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/*---------------------------------------
+      MENU
+-----------------------------------------*/
+
+div.verticalNav {
+  padding: 18px 40px 10px 0px;
+  margin-left: 10px;
+  background-color: #7EE2FF;
+  border: solid black 0.1em;
+  list-style-type: none;
+  border-radius: 15px;
+  margin-bottom: 10%;
+}
+
+div.verticalNav a {
+  background-color: #E0E0E0;
+  color: black;
+  display: block;
+  border: solid black 0.1em;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  font-family: helvetica;
+  padding-top: 2px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 80%;
+  border-bottom: 1px solid #000;
+}
+
+.dropdown:hover .dropdown-content a {
+  width: 80%;
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 17px;
+  border-bottom: 1px solid #000;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-menu a {
+  width: 80%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  border-bottom: 1px solid #000;
+}
+
+.dropdown-menu a:visited {
+  color: white;
+}
+
+/*---------------------------------------
+     SOCIAL ICON              
+-----------------------------------------*/
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #6a0dad;
+  color: white;
+}
+
+.fa {
+  padding: 15px;
+  padding-right: 25px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*---------------------------------------
+     BUTTONS               
+-----------------------------------------*/
+
 div.back_to_top {
   font-size: 20px;
   height: 20px;
@@ -323,6 +338,27 @@ div.back_to_top {
   float: left;
   padding: 0px 0px 50px 5px;
 }
+
+/* Pseudo-class, works for state when mouse is hovering over link */
+li a:hover {
+  box-shadow: 5px 5px 5px 5px #888888;
+  background-color: #989898;
+  color: white;
+  transform: scale(1.06);
+}
+
+li a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+
+/*---------------------------------------
+     FOOTER              
+-----------------------------------------*/
 
 footer p {
   background-color: #dfceae;
@@ -345,6 +381,10 @@ footer p {
 .sp {
   display: inline;
 }
+
+/*---------------------------------------
+     RESPONSIVE STYLES              
+-----------------------------------------*/
 
 @media only screen and (max-width: 674px) {
   #img {
@@ -392,5 +432,3 @@ footer p {
     display: inline;
   }
 }
-
-/*# sourceMappingURL=main.css.map */

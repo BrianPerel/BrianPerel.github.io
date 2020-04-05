@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8">
+		<meta="Brian Perel, IT, Programming, CS, Calisthenics, Music"/>
+		<meta name="Project" content="Project">
+		<meta http-equiv="Content-Type" content="text/html">
+		<meta name="keywords" content="homepage">
+		<meta name="author" content="Brian Perel">
+		<meta name="description" content="Portfolio">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="icon" href="icons_pics/favicon.ico">
+		<link rel="icon" href="PC.ico">
+		<title>Project 4 | Brian Perel</title>
+		
+		<!-- MAIN CSS --> 
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="all">
+		
+		<!-- BOOTSTRAP --> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	
+	
+	<body>
+		<!-- CONTACT --> 
+		<div class="jumbotron text-center">
+			<header><br/>
+				<h1><b>Brian Perel</b></h1>
+				<address><em><h6><b>Contact Information: </b><a style="text-decoration: none" href="mailto: bperel@student.framingham.edu">
+				bperel@student.framingham.edu</a><br/>Address: Ashland, MA, 01721</h6>
+				</em></address>
+			</header>
+		</div>		
+		<hr class="new4">
+		
+		<!-- MENU --> 
+		<nav class="navbar navbar-expand-sm justify-content-center bg-secondary">
+			<nav class="navbar navbar-expand-sm">
+			  <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="nav justify-content-center">
+				 <nav class="navbar navbar-dark bg-secondary">
+					<a class="navbar-brand" href="index.html" id="a"> 
+					  Home
+					</a> 
+				</nav> 
+				<nav class="navbar navbar-dark bg-secondary"> 
+					<a class="navbar-brand" href="websites.htm" id="a"> 
+					  Websites
+					</a> 
+				</nav> 
+				<nav class="navbar navbar-dark bg-secondary">
+					<a class="navbar-brand" href="http://fsuinnovation.byethost32.com/" target="_blank" id="a"> 
+					  Internship Website
+					</a> 
+				</nav> 
+				<nav class="navbar navbar-dark bg-secondary"> 
+					<a class="navbar-brand" href="resume.htm" id="a"> 
+					  Resume
+					</a> 
+				</nav> 
+					<nav class="navbar navbar-dark bg-secondary" id="a"> 
+					  <div class="dropdown">
+
+						<a class="navbar-brand dropdown-toggle" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#" style='color: white'> 			
+						 Projects
+						</a> 
+						<div class="dropdown-menu dropdown-content bg-secondary" style='border: 2.5px solid black'>  
+						  <a class="nav-link" class="dropdown-item" href="project1.htm" id="a">ATM App</a>
+						  <a class="nav-link" class="dropdown-item" href="project2.htm" id="a">Employee Data App</a>
+						  <a class="nav-link" class="dropdown-item" href="project3.htm" id="a">Business Database</a>
+						  <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style='border-radius: 50%; padding: 0%' id="a">
+						    <a class="nav-link" class="dropdown-item" href="project4.htm" style='border-bottom: none' id="a">Ftp Simulator</a></div>
+						  </nav>
+				      </div>
+					</nav> 
+				<nav class="navbar navbar-dark bg-secondary"> 
+					<a class="navbar-brand" href="vm.htm" id="a"> 
+					  Virtual Machines
+					</a> 
+				</nav>
+				<nav class="navbar navbar-dark bg-secondary"> 
+					<a class="navbar-brand" href="calisthenics.html" id="a"> 
+					  Calisthenics 
+					</a> 
+				</nav> 	
+    			</ul>
+			  </div>  
+			 </nav>
+		 </nav>
+		<br>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 align='center'><i>ftp Simulator</i></h2><br/><br>
+						<center><section><p>For this project, I developed a client-server netcentric program in C that uses the ftp and tcp protocols.<br/><br/> 
+						-&nbsp;The client program connects to the server side program using socket<br/>
+						-&nbsp;User must enter a valid ftp username and password pair<br/>
+						-&nbsp;User enters cmd and argument, cmd is sent to server<br/>
+						-&nbsp;Server program checks cmd and argument, performs appropriate implementation and returns message to client<br/>
+						-&nbsp;Client program prints reply message to user<br/>
+						-&nbsp;Example cmds include: stat, help, ls, cd, pwd, rm, send, mkdir, rmdir, recv, quit<br/><br/>
+						Link to project on Github: <a href="https://github.com/BrianPerel/client-server-ftp" target="_blank">https://github.com/BrianPerel/client-server-ftp</a></p></center>
+
+						
+						<br/><center><p>Images of program in putty (UNIX terminal emulator),<br/> running both the client and server programs in 2 seperate terminals:</p><br/><br/><br/>
+						<pre style='font-family: Helvetica Neue, Helvetica, Arial, sans-serif'>client-side:												server-side:</pre>
+						<img src='images/ftp_pics/1.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/2.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/3.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/4.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/5.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/6.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/7.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/8.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/9.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/10.png' height='80%' width='90%' style='margin: 2%'></img>
+						<img src='images/ftp_pics/11.png' height='80%' width='90%' style='margin: 2%'></img>
+						</center>
+					</div>
+					<br/><hr/>
+				</div>
+			</div>
+		</div>
+	
+		<br/><br/><center><a href="#top" style="text-decoration: none;"><button type="button" class="btn btn-light"><img src="images/icons_pics/up_arrow.png" style="display: inline;" width="10px" height="12px"></img><p style="display: inline; font-size: 18px">&nbsp;Back to top</button></p></a></center>
+		
+		<!-- FOOTER --> 
+		<br/><div class='footer text-center'>
+			<br/><p class="text-black">&copy; <script type="text/javascript">var current_year = new Date(); document.write(current_year.getFullYear());</script> created by Brian Perel</p><br/>
+		</div>
+	</body>
+</html>

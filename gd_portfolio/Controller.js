@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Controller_atlas_", frames: [[0,0,1920,1200]]},
-		{name:"Controller_atlas_2", frames: [[0,1029,580,133],[515,705,1312,160],[515,867,1312,160],[515,0,483,703],[0,0,513,989],[1000,407,540,293],[1000,0,616,405]]}
+		{name:"Controller_atlas_2", frames: [[0,1029,580,133],[515,705,1312,160],[515,867,1312,160],[582,1029,1085,8],[515,0,483,703],[0,0,513,989],[1000,407,540,290],[1000,0,616,405]]}
 ];
 
 
@@ -12,44 +12,51 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_6 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["Controller_atlas_2"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -63,7 +70,7 @@ lib.ssMetadata = [
 
 (lib.btnremovebgpreview = function() {
 	this.initialize(ss["Controller_atlas_2"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -87,17 +94,17 @@ p.draw = _componentDraw;
 
 	// Layer_1
 	this.instance = new lib.btnremovebgpreview();
-	this.instance.setTransform(-20,-1,0.0988,0.1346);
+	this.instance.setTransform(-22,1,0.0988,0.1346);
 
-	this.instance_1 = new lib.CachedBmp_6();
+	this.instance_1 = new lib.CachedBmp_7();
 	this.instance_1.setTransform(0,-0.45,0.4178,0.4178);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance,p:{scaleX:0.0988,x:-20}}]},1).to({state:[{t:this.instance,p:{scaleX:0.0717,x:3}}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance,p:{scaleX:0.0988,x:-22}}]},1).to({state:[{t:this.instance,p:{scaleX:0.0717,x:-2}}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-20,-1,262.3,56.1);
+p.nominalBounds = new cjs.Rectangle(-22,-0.4,264.3,55.9);
 
 
 // stage content:
@@ -134,7 +141,7 @@ p.nominalBounds = new cjs.Rectangle(-20,-1,262.3,56.1);
 		
 		function fl_ClickToGoToAndStopAtFrame()
 		{
-			 $("#video_ins")[0].src = "home.mp4";
+			 $("#video_ins")[0].src = "home2.mp4";
 		}
 		
 		this.btn_photos.addEventListener("click", fl_ClickToGoToAndStopAtFrame_2.bind(this));
@@ -162,14 +169,14 @@ p.nominalBounds = new cjs.Rectangle(-20,-1,262.3,56.1);
 		
 		function fl_ClickToGoToAndStopAtFrame_5()
 		{
-			 $("#video_ins")[0].src = "animation.mp4";
+			 $("#video_ins")[0].src = "animation1.mp4";
 		}
 		
 		this.btn_initials.addEventListener("click", fl_ClickToGoToAndStopAtFrame_6.bind(this));
 		
 		function fl_ClickToGoToAndStopAtFrame_6()
 		{
-			 $("#video_ins")[0].src = "initials1.mp4";
+			 $("#video_ins")[0].src = "initials.mp4";
 		}
 		
 		this.btn_story.addEventListener("click", fl_ClickToGoToAndStopAtFrame_7.bind(this));
@@ -191,6 +198,13 @@ p.nominalBounds = new cjs.Rectangle(-20,-1,262.3,56.1);
 		function fl_ClickToGoToAndStopAtFrame_9()
 		{
 			 $("#video_ins")[0].src = "tree.mp4";
+		}
+		
+		this.btn_ad.addEventListener("click", fl_ClickToGoToAndStopAtFrame_10.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_10()
+		{
+			 $("#video_ins")[0].src = "IT-ad.mp4";
 		}
 	}
 
@@ -254,7 +268,7 @@ p.nominalBounds = new cjs.Rectangle(-20,-1,262.3,56.1);
 	this.video_ins = new lib.an_Video({'id': 'video_ins', 'src':'videos/', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
 
 	this.video_ins.name = "video_ins";
-	this.video_ins.setTransform(593.8,397.5,1.3525,1.9182,0,0,0,200.6,150.8);
+	this.video_ins.setTransform(595.75,401.45,1.3525,1.6923,0,0,0,200.6,150.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.video_ins).wait(1));
 
@@ -274,27 +288,30 @@ p.nominalBounds = new cjs.Rectangle(-20,-1,262.3,56.1);
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
 	// Title
-	this.instance_3 = new lib.CachedBmp_4();
-	this.instance_3.setTransform(402.75,26.75,0.5,0.5);
+	this.instance_3 = new lib.CachedBmp_5();
+	this.instance_3.setTransform(268.3,49.25,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
+	this.instance_4 = new lib.CachedBmp_4();
+	this.instance_4.setTransform(324.85,121.1,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3}]}).wait(1));
 
 	// Title_w_bg
-	this.instance_4 = new lib.CachedBmp_5();
-	this.instance_4.setTransform(405.15,26.75,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
-
-	// Background
-	this.instance_5 = new lib.Background();
-	this.instance_5.setTransform(1,0,0.533,0.6397);
+	this.instance_5 = new lib.CachedBmp_6();
+	this.instance_5.setTransform(270.7,49.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+
+	// Background
+	this.instance_6 = new lib.Background();
+	this.instance_6.setTransform(1,0,0.533,0.6397);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(499.1,384,562.1,383.6);
+p.nominalBounds = new cjs.Rectangle(496.7,384,527.5999999999999,383.6);
 // library properties:
 lib.properties = {
 	id: 'F2F7059EA197DA4780EF211944722BE1',
@@ -304,11 +321,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588207435314", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588207435314", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588207435331", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588207435331", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588207435331", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588256434511", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588256434511", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588256434525", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588256434525", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588256434525", id:"an.Video"}
 	],
 	preloads: []
 };

@@ -311,21 +311,21 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.4,264.3,55.9);
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(496.7,384,527.5999999999999,383.6);
+p.nominalBounds = new cjs.Rectangle(704.7,378.5,319.5999999999999,389.1);
 // library properties:
 lib.properties = {
 	id: 'F2F7059EA197DA4780EF211944722BE1',
-	width: 1024,
-	height: 768,
+	width: 1440,
+	height: 757,
 	fps: 30,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588256434511", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588256434511", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588256434525", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588256434525", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588256434525", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588256831068", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588256831068", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588256831081", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588256831081", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588256831081", id:"an.Video"}
 	],
 	preloads: []
 };

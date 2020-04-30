@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Controller_atlas_", frames: [[0,0,1920,1200]]},
-		{name:"Controller_atlas_2", frames: [[0,1029,580,133],[515,705,1312,160],[515,867,1312,160],[582,1029,1085,8],[515,0,483,703],[0,0,513,989],[1000,407,540,290],[1000,0,616,405]]}
+		{name:"Controller_atlas_2", frames: [[860,624,485,112],[0,876,1854,161],[0,1039,1854,161],[419,738,1533,8],[1037,0,393,622],[0,0,417,874],[419,407,439,257],[419,0,616,405]]}
 ];
 
 
@@ -97,14 +97,14 @@ p.draw = _componentDraw;
 	this.instance.setTransform(-22,1,0.0988,0.1346);
 
 	this.instance_1 = new lib.CachedBmp_7();
-	this.instance_1.setTransform(0,-0.45,0.4178,0.4178);
+	this.instance_1.setTransform(0,-0.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance,p:{scaleX:0.0988,x:-22}}]},1).to({state:[{t:this.instance,p:{scaleX:0.0717,x:-2}}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-22,-0.4,264.3,55.9);
+p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 
 
 // stage content:
@@ -214,52 +214,52 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.4,264.3,55.9);
 	// Inv_btns
 	this.btn_ad = new lib.inv_btn();
 	this.btn_ad.name = "btn_ad";
-	this.btn_ad.setTransform(156.3,643.95,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_ad.setTransform(252.95,641.6,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_ad, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_tree = new lib.inv_btn();
 	this.btn_tree.name = "btn_tree";
-	this.btn_tree.setTransform(156.3,591.95,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_tree.setTransform(252.95,596.7,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_tree, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_research = new lib.inv_btn();
 	this.btn_research.name = "btn_research";
-	this.btn_research.setTransform(156.3,540.95,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_research.setTransform(252.95,552.65,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_research, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_story = new lib.inv_btn();
 	this.btn_story.name = "btn_story";
-	this.btn_story.setTransform(156.3,488.95,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_story.setTransform(252.95,507.7,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_story, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_initials = new lib.inv_btn();
 	this.btn_initials.name = "btn_initials";
-	this.btn_initials.setTransform(156.3,440,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_initials.setTransform(252.95,465.45,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_initials, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_animation = new lib.inv_btn();
 	this.btn_animation.name = "btn_animation";
-	this.btn_animation.setTransform(156.3,388.05,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_animation.setTransform(252.95,420.55,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_animation, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_poster = new lib.inv_btn();
 	this.btn_poster.name = "btn_poster";
-	this.btn_poster.setTransform(156.3,334.05,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_poster.setTransform(252.95,373.95,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_poster, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_photos = new lib.inv_btn();
 	this.btn_photos.name = "btn_photos";
-	this.btn_photos.setTransform(156.3,279.05,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_photos.setTransform(252.95,326.4,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_photos, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_faces = new lib.inv_btn();
 	this.btn_faces.name = "btn_faces";
-	this.btn_faces.setTransform(156.3,226.05,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_faces.setTransform(252.95,280.65,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_faces, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_home = new lib.inv_btn();
 	this.btn_home.name = "btn_home";
-	this.btn_home.setTransform(156.3,176.05,1.1967,0.6755,0,0,0,121.4,27.4);
+	this.btn_home.setTransform(252.95,237.45,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_home, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_photos},{t:this.btn_poster},{t:this.btn_animation},{t:this.btn_initials},{t:this.btn_story},{t:this.btn_research},{t:this.btn_tree},{t:this.btn_ad}]}).wait(1));
@@ -268,50 +268,50 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.4,264.3,55.9);
 	this.video_ins = new lib.an_Video({'id': 'video_ins', 'src':'videos/', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
 
 	this.video_ins.name = "video_ins";
-	this.video_ins.setTransform(595.75,401.45,1.3525,1.6923,0,0,0,200.6,150.8);
+	this.video_ins.setTransform(814.5,420.45,1.9116,1.6966,0,0,0,200.7,151);
 
 	this.timeline.addTween(cjs.Tween.get(this.video_ins).wait(1));
 
 	// Text_btns
 	this.instance = new lib.CachedBmp_2();
-	this.instance.setTransform(59.8,163.8,0.5,0.5);
+	this.instance.setTransform(185.3,222.15,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_1();
-	this.instance_1.setTransform(50.55,513.9,0.5,0.5);
+	this.instance_1.setTransform(177.8,531.75,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// txt_btns_bg
 	this.instance_2 = new lib.CachedBmp_3();
-	this.instance_2.setTransform(53.05,156.9,0.5,0.5);
+	this.instance_2.setTransform(179.85,216.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
 	// Title
 	this.instance_3 = new lib.CachedBmp_5();
-	this.instance_3.setTransform(268.3,49.25,0.5,0.5);
+	this.instance_3.setTransform(347.45,48.4,0.5,0.5);
 
 	this.instance_4 = new lib.CachedBmp_4();
-	this.instance_4.setTransform(324.85,121.1,0.5,0.5);
+	this.instance_4.setTransform(427.45,120.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3}]}).wait(1));
 
 	// Title_w_bg
 	this.instance_5 = new lib.CachedBmp_6();
-	this.instance_5.setTransform(270.7,49.25,0.5,0.5);
+	this.instance_5.setTransform(350.8,48.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
 	// Background
 	this.instance_6 = new lib.Background();
-	this.instance_6.setTransform(1,0,0.533,0.6397);
+	this.instance_6.setTransform(-6,-7,0.7594,0.6472);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(704.7,378.5,319.5999999999999,389.1);
+p.nominalBounds = new cjs.Rectangle(714,371.5,738.0999999999999,398.20000000000005);
 // library properties:
 lib.properties = {
 	id: 'F2F7059EA197DA4780EF211944722BE1',
@@ -321,11 +321,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588256831068", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588256831068", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588256831081", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588256831081", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588256831081", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588258054063", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588258054064", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588258054087", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588258054087", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588258054087", id:"an.Video"}
 	],
 	preloads: []
 };

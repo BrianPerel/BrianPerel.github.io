@@ -321,11 +321,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588260047948", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588260047948", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588260047960", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588260047960", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588260047960", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588293598694", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588293598695", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588293598707", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588293598707", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588293598707", id:"an.Video"}
 	],
 	preloads: []
 };

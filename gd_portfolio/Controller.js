@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Controller_atlas_", frames: [[0,0,1920,1200]]},
-		{name:"Controller_atlas_2", frames: [[1439,270,485,112],[450,625,1330,91],[450,718,1330,91],[450,811,1087,5],[1068,0,369,623],[0,0,448,884],[1439,0,503,268],[450,0,616,405]]}
+		{name:"Controller_atlas_2", frames: [[1437,273,485,112],[450,626,1268,91],[450,719,1268,91],[450,812,1036,5],[1068,0,367,624],[0,0,448,884],[1437,0,503,271],[450,0,616,405]]}
 ];
 
 
@@ -214,52 +214,52 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	// Inv_btns
 	this.btn_ad = new lib.inv_btn();
 	this.btn_ad.name = "btn_ad";
-	this.btn_ad.setTransform(260.95,641.6,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_ad.setTransform(251.3,629.5,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_ad, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_tree = new lib.inv_btn();
 	this.btn_tree.name = "btn_tree";
-	this.btn_tree.setTransform(260.95,596.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_tree.setTransform(264.8,584.75,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_tree, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_research = new lib.inv_btn();
 	this.btn_research.name = "btn_research";
-	this.btn_research.setTransform(260.95,552.65,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_research.setTransform(283.3,536.7,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_research, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_story = new lib.inv_btn();
 	this.btn_story.name = "btn_story";
-	this.btn_story.setTransform(260.95,507.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_story.setTransform(306.55,491.35,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_story, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_initials = new lib.inv_btn();
 	this.btn_initials.name = "btn_initials";
-	this.btn_initials.setTransform(260.95,465.45,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_initials.setTransform(296.55,445.5,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_initials, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_animation = new lib.inv_btn();
 	this.btn_animation.name = "btn_animation";
-	this.btn_animation.setTransform(260.95,420.55,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_animation.setTransform(280.7,399.6,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_animation, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_poster = new lib.inv_btn();
 	this.btn_poster.name = "btn_poster";
-	this.btn_poster.setTransform(260.95,373.95,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_poster.setTransform(298.8,355,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_poster, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_photos = new lib.inv_btn();
 	this.btn_photos.name = "btn_photos";
-	this.btn_photos.setTransform(260.95,326.4,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_photos.setTransform(305.55,308.45,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_photos, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_faces = new lib.inv_btn();
 	this.btn_faces.name = "btn_faces";
-	this.btn_faces.setTransform(260.95,280.65,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_faces.setTransform(312.85,261.7,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_faces, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_home = new lib.inv_btn();
 	this.btn_home.name = "btn_home";
-	this.btn_home.setTransform(260.95,237.45,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_home.setTransform(317.25,216.9,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_home, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_photos},{t:this.btn_poster},{t:this.btn_animation},{t:this.btn_initials},{t:this.btn_story},{t:this.btn_research},{t:this.btn_tree},{t:this.btn_ad}]}).wait(1));
@@ -274,31 +274,31 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 
 	// Text_btns
 	this.instance = new lib.CachedBmp_2();
-	this.instance.setTransform(194.3,219.25,0.5,0.5);
+	this.instance.setTransform(180.65,201.7,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_1();
-	this.instance_1.setTransform(177.8,531.1,0.5,0.5);
+	this.instance_1.setTransform(167.2,513.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// txt_btns_bg
 	this.instance_2 = new lib.CachedBmp_3();
-	this.instance_2.setTransform(179.85,215.75,0.5,0.5);
+	this.instance_2.setTransform(200.5,197.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
 
 	// Title
 	this.instance_3 = new lib.CachedBmp_5();
-	this.instance_3.setTransform(487.75,79.35,0.5,0.5);
+	this.instance_3.setTransform(503.4,79.35,0.5,0.5);
 
 	this.instance_4 = new lib.CachedBmp_4();
-	this.instance_4.setTransform(545.2,120.25,0.5,0.5);
+	this.instance_4.setTransform(558.2,120.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3}]}).wait(1));
 
 	// Title_w_bg
 	this.instance_5 = new lib.CachedBmp_6();
-	this.instance_5.setTransform(490.15,79.35,0.5,0.5);
+	this.instance_5.setTransform(505.7,79.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
 
@@ -321,11 +321,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588340731229", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588340731229", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588340731245", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588340731245", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588340731245", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588355338785", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588355338785", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588355338798", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588355338798", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588355338798", id:"an.Video"}
 	],
 	preloads: []
 };

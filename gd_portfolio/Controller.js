@@ -232,7 +232,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 		this.return_btn.addEventListener("click", a);
 		
 		function a() {
-			window.open("brianperel.github.io", "_self");
+			window.open("../../", "_self");
 		}
 	}
 
@@ -363,11 +363,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588435025672", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588435025672", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588435025689", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588435025689", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588435025689", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588435183840", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588435183840", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588435183860", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588435183860", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588435183860", id:"an.Video"}
 	],
 	preloads: []
 };

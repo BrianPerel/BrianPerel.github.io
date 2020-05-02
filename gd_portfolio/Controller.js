@@ -229,18 +229,10 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 		
 		
 		
-		/* Click to Go to Web Page
-		Clicking on the specified symbol instance loads the URL in a new browser window.
+		this.return_btn.addEventListener("click", a);
 		
-		Instructions:
-		1. Replace http://www.adobe.com with the desired URL address.
-		   Keep the quotation marks ("").
-		*/
-		
-		this.Return.addEventListener("click", fl_ClickToGoToWebPage_2);
-		
-		function fl_ClickToGoToWebPage_2() {
-			window.open("http://www.adobe.com", "_blank");
+		function a() {
+			window.open("brianperel.github.io", "_self");
 		}
 	}
 
@@ -248,10 +240,10 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Inv_btns
-	this.Return_ = new lib.inv_btn();
-	this.Return_.name = "Return_";
-	this.Return_.setTransform(1264.9,632.7,0.9907,0.5834,0,0,0,121.4,27.7);
-	new cjs.ButtonHelper(this.Return_, 0, 1, 2, false, new lib.inv_btn(), 3);
+	this.return_btn = new lib.inv_btn();
+	this.return_btn.name = "return_btn";
+	this.return_btn.setTransform(1264.9,632.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	new cjs.ButtonHelper(this.return_btn, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_ad = new lib.inv_btn();
 	this.btn_ad.name = "btn_ad";
@@ -303,7 +295,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	this.btn_home.setTransform(251.65,216.9,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_home, 0, 1, 2, false, new lib.inv_btn(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_photos},{t:this.btn_poster},{t:this.btn_animation},{t:this.btn_initials},{t:this.btn_story},{t:this.btn_research},{t:this.btn_tree},{t:this.btn_ad},{t:this.Return_}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_photos},{t:this.btn_poster},{t:this.btn_animation},{t:this.btn_initials},{t:this.btn_story},{t:this.btn_research},{t:this.btn_tree},{t:this.btn_ad},{t:this.return_btn}]}).wait(1));
 
 	// Video
 	this.video_ins = new lib.an_Video({'id': 'video_ins', 'src':'videos/', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
@@ -371,11 +363,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588434286901", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588434286901", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588434286915", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588434286915", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588434286915", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588435025672", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588435025672", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588435025689", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588435025689", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588435025689", id:"an.Video"}
 	],
 	preloads: []
 };

@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Controller_atlas_", frames: [[0,0,1920,1200]]},
-		{name:"Controller_atlas_2", frames: [[1437,273,485,112],[450,626,1268,91],[450,719,1268,91],[450,812,1036,5],[1068,0,367,624],[0,0,448,884],[1437,0,503,271],[450,0,616,405]]}
+		{name:"Controller_atlas_2", frames: [[1437,273,485,112],[450,626,1268,91],[450,719,1268,91],[450,812,1036,5],[1068,0,367,624],[1437,387,444,88],[450,407,395,71],[0,0,448,884],[1437,0,503,271],[450,0,616,405]]}
 ];
 
 
@@ -12,51 +12,65 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_7 = function() {
+(lib.CachedBmp_9 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.CachedBmp_6 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_5 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["Controller_atlas_2"]);
 	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["Controller_atlas_2"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["Controller_atlas_2"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -70,7 +84,7 @@ lib.ssMetadata = [
 
 (lib.btnremovebgpreview = function() {
 	this.initialize(ss["Controller_atlas_2"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -96,7 +110,7 @@ p.draw = _componentDraw;
 	this.instance = new lib.btnremovebgpreview();
 	this.instance.setTransform(-22,1,0.0988,0.1346);
 
-	this.instance_1 = new lib.CachedBmp_7();
+	this.instance_1 = new lib.CachedBmp_9();
 	this.instance_1.setTransform(0,-0.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance,p:{scaleX:0.0988,x:-22}}]},1).to({state:[{t:this.instance,p:{scaleX:0.0717,x:-2}}]},1).to({state:[{t:this.instance_1}]},1).wait(1));
@@ -206,107 +220,143 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 		{
 			 $("#video_ins")[0].src = "IT-ad.mp4";
 		}
+		/*
+		this.Return.addEventListener("click", fl_ClickToGoToWebPage);
+		
+		function fl_ClickToGoToWebPage() {
+			window.open("brianperel.github.io", "_self");
+		}*/
+		
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.Return.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("http://www.adobe.com", "_blank");
+		}
 	}
 
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Inv_btns
+	this.Return_ = new lib.inv_btn();
+	this.Return_.name = "Return_";
+	this.Return_.setTransform(1264.9,632.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	new cjs.ButtonHelper(this.Return_, 0, 1, 2, false, new lib.inv_btn(), 3);
+
 	this.btn_ad = new lib.inv_btn();
 	this.btn_ad.name = "btn_ad";
-	this.btn_ad.setTransform(251.3,629.5,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_ad.setTransform(172.9,629.5,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_ad, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_tree = new lib.inv_btn();
 	this.btn_tree.name = "btn_tree";
-	this.btn_tree.setTransform(264.8,584.75,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_tree.setTransform(189.6,584.75,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_tree, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_research = new lib.inv_btn();
 	this.btn_research.name = "btn_research";
-	this.btn_research.setTransform(283.3,536.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_research.setTransform(209.7,536.7,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_research, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_story = new lib.inv_btn();
 	this.btn_story.name = "btn_story";
-	this.btn_story.setTransform(306.55,491.35,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_story.setTransform(237.75,491.35,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_story, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_initials = new lib.inv_btn();
 	this.btn_initials.name = "btn_initials";
-	this.btn_initials.setTransform(296.55,445.5,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_initials.setTransform(222.95,445.5,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_initials, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_animation = new lib.inv_btn();
 	this.btn_animation.name = "btn_animation";
-	this.btn_animation.setTransform(280.7,399.6,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_animation.setTransform(218.3,399.6,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_animation, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_poster = new lib.inv_btn();
 	this.btn_poster.name = "btn_poster";
-	this.btn_poster.setTransform(298.8,355,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_poster.setTransform(239.6,355,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_poster, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_photos = new lib.inv_btn();
 	this.btn_photos.name = "btn_photos";
-	this.btn_photos.setTransform(305.55,308.45,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_photos.setTransform(233.55,308.45,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_photos, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_faces = new lib.inv_btn();
 	this.btn_faces.name = "btn_faces";
-	this.btn_faces.setTransform(312.85,261.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_faces.setTransform(245.65,261.7,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_faces, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_home = new lib.inv_btn();
 	this.btn_home.name = "btn_home";
-	this.btn_home.setTransform(317.25,216.9,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_home.setTransform(251.65,216.9,0.9907,0.5834,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_home, 0, 1, 2, false, new lib.inv_btn(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_photos},{t:this.btn_poster},{t:this.btn_animation},{t:this.btn_initials},{t:this.btn_story},{t:this.btn_research},{t:this.btn_tree},{t:this.btn_ad}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_photos},{t:this.btn_poster},{t:this.btn_animation},{t:this.btn_initials},{t:this.btn_story},{t:this.btn_research},{t:this.btn_tree},{t:this.btn_ad},{t:this.Return_}]}).wait(1));
 
 	// Video
 	this.video_ins = new lib.an_Video({'id': 'video_ins', 'src':'videos/', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
 
 	this.video_ins.name = "video_ins";
-	this.video_ins.setTransform(823.65,426.45,1.9116,1.6966,0,0,0,200.7,151);
+	this.video_ins.setTransform(753.65,426.45,1.9116,1.6966,0,0,0,200.7,151);
 
 	this.timeline.addTween(cjs.Tween.get(this.video_ins).wait(1));
 
 	// Text_btns
-	this.instance = new lib.CachedBmp_2();
-	this.instance.setTransform(180.65,201.7,0.5,0.5);
+	this.instance = new lib.CachedBmp_3();
+	this.instance.setTransform(1190.65,616.2,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_1();
-	this.instance_1.setTransform(167.2,513.9,0.5,0.5);
+	this.instance_1 = new lib.CachedBmp_2();
+	this.instance_1.setTransform(108.7,201.7,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_2 = new lib.CachedBmp_1();
+	this.instance_2.setTransform(97.2,513.9,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	// Return_home
+	this.instance_3 = new lib.CachedBmp_4();
+	this.instance_3.setTransform(1178.15,613.95,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
 	// txt_btns_bg
-	this.instance_2 = new lib.CachedBmp_3();
-	this.instance_2.setTransform(200.5,197.7,0.5,0.5);
+	this.instance_4 = new lib.CachedBmp_5();
+	this.instance_4.setTransform(130.5,197.7,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
 	// Title
-	this.instance_3 = new lib.CachedBmp_5();
-	this.instance_3.setTransform(503.4,79.35,0.5,0.5);
+	this.instance_5 = new lib.CachedBmp_7();
+	this.instance_5.setTransform(433.4,79.35,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_4();
-	this.instance_4.setTransform(558.2,120.25,0.5,0.5);
+	this.instance_6 = new lib.CachedBmp_6();
+	this.instance_6.setTransform(488.2,120.25,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5}]}).wait(1));
 
 	// Title_w_bg
-	this.instance_5 = new lib.CachedBmp_6();
-	this.instance_5.setTransform(505.7,79.35,0.5,0.5);
+	this.instance_7 = new lib.CachedBmp_8();
+	this.instance_7.setTransform(435.7,79.35,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(1));
 
 	// Background
-	this.instance_6 = new lib.Background();
-	this.instance_6.setTransform(-6,-7,0.7594,0.6472);
+	this.instance_8 = new lib.Background();
+	this.instance_8.setTransform(-6,-7,0.7594,0.6472);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1));
 
 	this._renderFirstFrame();
 
@@ -321,11 +371,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588355338785", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588355338785", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588355338798", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588355338798", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588355338798", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588434286901", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588434286901", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588434286915", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588434286915", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588434286915", id:"an.Video"}
 	],
 	preloads: []
 };

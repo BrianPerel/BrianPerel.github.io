@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Controller_atlas_", frames: [[0,0,1920,1200]]},
-		{name:"Controller_atlas_2", frames: [[1437,273,485,112],[450,626,1268,91],[450,719,1268,91],[450,812,1036,5],[1068,0,367,624],[1437,387,444,88],[450,407,395,71],[0,0,448,884],[1437,0,503,271],[450,0,616,405]]}
+		{name:"Controller_atlas_2", frames: [[1356,263,485,112],[406,603,1141,88],[406,693,1141,88],[406,783,932,4],[1024,0,330,601],[1356,377,400,85],[406,407,356,68],[0,0,404,852],[1356,0,453,261],[406,0,616,405]]}
 ];
 
 
@@ -242,57 +242,57 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	// Inv_btns
 	this.return_btn = new lib.inv_btn();
 	this.return_btn.name = "return_btn";
-	this.return_btn.setTransform(1264.9,632.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.return_btn.setTransform(1175.4,623.5,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.return_btn, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_ad = new lib.inv_btn();
 	this.btn_ad.name = "btn_ad";
-	this.btn_ad.setTransform(172.9,629.5,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_ad.setTransform(192.5,620.35,0.8917,0.5621,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_ad, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_tree = new lib.inv_btn();
 	this.btn_tree.name = "btn_tree";
-	this.btn_tree.setTransform(189.6,584.75,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_tree.setTransform(207.5,577.3,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.btn_tree, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_research = new lib.inv_btn();
 	this.btn_research.name = "btn_research";
-	this.btn_research.setTransform(209.7,536.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_research.setTransform(225.6,530.95,0.8917,0.5621,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_research, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_story = new lib.inv_btn();
 	this.btn_story.name = "btn_story";
-	this.btn_story.setTransform(237.75,491.35,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_story.setTransform(250.9,487.25,0.8917,0.5621,0,0,0,121.5,27.7);
 	new cjs.ButtonHelper(this.btn_story, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_initials = new lib.inv_btn();
 	this.btn_initials.name = "btn_initials";
-	this.btn_initials.setTransform(222.95,445.5,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_initials.setTransform(237.55,443.15,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.btn_initials, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_animation = new lib.inv_btn();
 	this.btn_animation.name = "btn_animation";
-	this.btn_animation.setTransform(218.3,399.6,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_animation.setTransform(230.4,398.85,0.8917,0.5621,0,0,0,121.5,27.7);
 	new cjs.ButtonHelper(this.btn_animation, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_poster = new lib.inv_btn();
 	this.btn_poster.name = "btn_poster";
-	this.btn_poster.setTransform(239.6,355,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_poster.setTransform(252.55,355.95,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.btn_poster, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_photos = new lib.inv_btn();
 	this.btn_photos.name = "btn_photos";
-	this.btn_photos.setTransform(233.55,308.45,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_photos.setTransform(247.05,311.1,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.btn_photos, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_faces = new lib.inv_btn();
 	this.btn_faces.name = "btn_faces";
-	this.btn_faces.setTransform(245.65,261.7,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_faces.setTransform(257.95,266.05,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.btn_faces, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_home = new lib.inv_btn();
 	this.btn_home.name = "btn_home";
-	this.btn_home.setTransform(251.65,216.9,0.9907,0.5834,0,0,0,121.4,27.7);
+	this.btn_home.setTransform(263.35,222.9,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.btn_home, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_photos},{t:this.btn_poster},{t:this.btn_animation},{t:this.btn_initials},{t:this.btn_story},{t:this.btn_research},{t:this.btn_tree},{t:this.btn_ad},{t:this.return_btn}]}).wait(1));
@@ -301,46 +301,46 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	this.video_ins = new lib.an_Video({'id': 'video_ins', 'src':'videos/', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
 
 	this.video_ins.name = "video_ins";
-	this.video_ins.setTransform(753.65,426.45,1.9116,1.6966,0,0,0,200.7,151);
+	this.video_ins.setTransform(715.35,424.7,1.7206,1.6347,0,0,0,200.8,151);
 
 	this.timeline.addTween(cjs.Tween.get(this.video_ins).wait(1));
 
 	// Text_btns
 	this.instance = new lib.CachedBmp_3();
-	this.instance.setTransform(1190.65,616.2,0.5,0.5);
+	this.instance.setTransform(1108.6,607.55,0.5,0.5);
 
 	this.instance_1 = new lib.CachedBmp_2();
-	this.instance_1.setTransform(108.7,201.7,0.5,0.5);
+	this.instance_1.setTransform(134.65,208.15,0.5,0.5);
 
 	this.instance_2 = new lib.CachedBmp_1();
-	this.instance_2.setTransform(97.2,513.9,0.5,0.5);
+	this.instance_2.setTransform(124.35,508.95,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// Return_home
 	this.instance_3 = new lib.CachedBmp_4();
-	this.instance_3.setTransform(1178.15,613.95,0.5,0.5);
+	this.instance_3.setTransform(1097.35,605.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1));
 
 	// txt_btns_bg
 	this.instance_4 = new lib.CachedBmp_5();
-	this.instance_4.setTransform(130.5,197.7,0.5,0.5);
+	this.instance_4.setTransform(154.3,204.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
 	// Title
 	this.instance_5 = new lib.CachedBmp_7();
-	this.instance_5.setTransform(433.4,79.35,0.5,0.5);
+	this.instance_5.setTransform(426.95,90.25,0.5,0.5);
 
 	this.instance_6 = new lib.CachedBmp_6();
-	this.instance_6.setTransform(488.2,120.25,0.5,0.5);
+	this.instance_6.setTransform(476.35,129.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_6},{t:this.instance_5}]}).wait(1));
 
 	// Title_w_bg
 	this.instance_7 = new lib.CachedBmp_8();
-	this.instance_7.setTransform(435.7,79.35,0.5,0.5);
+	this.instance_7.setTransform(429,90.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(1));
 
@@ -363,11 +363,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588435183840", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588435183840", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588435183860", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588435183860", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588435183860", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588512021531", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588512021531", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588512021550", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588512021550", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588512021550", id:"an.Video"}
 	],
 	preloads: []
 };

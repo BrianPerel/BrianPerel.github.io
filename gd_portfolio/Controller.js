@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Controller_atlas_", frames: [[0,0,1920,1200]]},
-		{name:"Controller_atlas_2", frames: [[1308,267,485,112],[406,747,966,101],[406,603,1128,142],[406,850,941,5],[1024,0,282,601],[1308,381,400,85],[406,407,356,68],[0,0,404,852],[1308,0,453,265],[406,0,616,405]]}
+		{name:"Controller_atlas_2", frames: [[1315,267,485,112],[406,747,966,101],[406,603,1128,142],[406,850,941,5],[1024,0,289,601],[1315,381,400,85],[406,407,356,68],[0,0,404,852],[1315,0,453,265],[406,0,616,405]]}
 ];
 
 
@@ -325,7 +325,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 
 	// txt_btns_bg
 	this.instance_4 = new lib.CachedBmp_5();
-	this.instance_4.setTransform(164.25,204.3,0.5,0.5);
+	this.instance_4.setTransform(162.3,204.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1));
 
@@ -363,11 +363,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588635144121", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588635144121", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588635144149", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588635144149", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588635144149", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588636194617", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588636194617", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588636194634", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588636194634", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588636194634", id:"an.Video"}
 	],
 	preloads: []
 };

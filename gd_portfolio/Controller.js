@@ -242,7 +242,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	// Inv_btns
 	this.return_btn = new lib.inv_btn();
 	this.return_btn.name = "return_btn";
-	this.return_btn.setTransform(1175.4,623.5,0.8917,0.5621,0,0,0,121.4,27.8);
+	this.return_btn.setTransform(1175.4,625.45,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.return_btn, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_ad = new lib.inv_btn();
@@ -262,7 +262,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 
 	this.btn_research = new lib.inv_btn();
 	this.btn_research.name = "btn_research";
-	this.btn_research.setTransform(250.9,487.25,0.8917,0.5621,0,0,0,121.5,27.7);
+	this.btn_research.setTransform(233.9,487.25,0.8917,0.5621,0,0,0,121.5,27.7);
 	new cjs.ButtonHelper(this.btn_research, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_letters = new lib.inv_btn();
@@ -363,11 +363,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588636194617", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588636194617", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588636194634", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588636194634", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588636194634", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588819331227", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588819331227", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588819331246", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588819331246", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588819331246", id:"an.Video"}
 	],
 	preloads: []
 };

@@ -214,16 +214,8 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 		this.btn_ad.addEventListener("click", fl_ClickToGoToAndStopAtFrame_10.bind(this));
 		
 		function fl_ClickToGoToAndStopAtFrame_10() {
-			$("#video_ins")[0].src = "IT-ad.mp4";
+			$("#video_ins")[0].src = "IT.mp4";
 		}
-		/*
-		this.Return.addEventListener("click", fl_ClickToGoToWebPage);
-		
-		function fl_ClickToGoToWebPage() {
-			window.open("brianperel.github.io", "_self");
-		}*/
-		
-		
 		
 		this.return_btn.addEventListener("click", a);
 		
@@ -363,11 +355,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588859749395", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588859749396", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588859749416", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588859749416", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588859749416", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588892180633", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588892180633", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588892180651", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588892180651", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588892180651", id:"an.Video"}
 	],
 	preloads: []
 };

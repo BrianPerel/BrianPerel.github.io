@@ -205,10 +205,10 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 			$("#video_ins")[0].src = "research.mp4";
 		}
 		
-		this.btn_tree.addEventListener("click", fl_ClickToGoToAndStopAtFrame_9.bind(this));
+		this.btn_light.addEventListener("click", fl_ClickToGoToAndStopAtFrame_9.bind(this));
 		
 		function fl_ClickToGoToAndStopAtFrame_9() {
-			$("#video_ins")[0].src = "tree.mp4";
+			$("#video_ins")[0].src = "Lighthouse2.mp4";
 		}
 		
 		this.btn_ad.addEventListener("click", fl_ClickToGoToAndStopAtFrame_10.bind(this));
@@ -250,10 +250,10 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	this.btn_ad.setTransform(192.5,620.35,0.8917,0.5621,0,0,0,121.4,27.7);
 	new cjs.ButtonHelper(this.btn_ad, 0, 1, 2, false, new lib.inv_btn(), 3);
 
-	this.btn_tree = new lib.inv_btn();
-	this.btn_tree.name = "btn_tree";
-	this.btn_tree.setTransform(207.5,577.3,0.8917,0.5621,0,0,0,121.4,27.8);
-	new cjs.ButtonHelper(this.btn_tree, 0, 1, 2, false, new lib.inv_btn(), 3);
+	this.btn_light = new lib.inv_btn();
+	this.btn_light.name = "btn_light";
+	this.btn_light.setTransform(207.5,577.3,0.8917,0.5621,0,0,0,121.4,27.8);
+	new cjs.ButtonHelper(this.btn_light, 0, 1, 2, false, new lib.inv_btn(), 3);
 
 	this.btn_animation = new lib.inv_btn();
 	this.btn_animation.name = "btn_animation";
@@ -295,7 +295,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	this.btn_home.setTransform(263.35,222.9,0.8917,0.5621,0,0,0,121.4,27.8);
 	new cjs.ButtonHelper(this.btn_home, 0, 1, 2, false, new lib.inv_btn(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_story},{t:this.btn_poster},{t:this.btn_photos},{t:this.btn_letters},{t:this.btn_research},{t:this.btn_animation},{t:this.btn_tree},{t:this.btn_ad},{t:this.return_btn}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_home},{t:this.btn_faces},{t:this.btn_story},{t:this.btn_poster},{t:this.btn_photos},{t:this.btn_letters},{t:this.btn_research},{t:this.btn_animation},{t:this.btn_light},{t:this.btn_ad},{t:this.return_btn}]}).wait(1));
 
 	// Video
 	this.video_ins = new lib.an_Video({'id': 'video_ins', 'src':'videos/home3.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
@@ -363,11 +363,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588819331227", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588819331227", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588819331246", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588819331246", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588819331246", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1588859749395", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1588859749396", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588859749416", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1588859749416", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1588859749416", id:"an.Video"}
 	],
 	preloads: []
 };

@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Controller_atlas_", frames: [[0,0,1920,1200]]},
-		{name:"Controller_atlas_2", frames: [[1315,267,485,112],[406,747,966,101],[406,603,1128,142],[406,850,941,5],[1024,0,289,601],[1315,381,400,85],[406,407,356,68],[0,0,404,852],[1315,0,453,265],[406,0,616,405]]}
+		{name:"Controller_atlas_2", frames: [[1315,262,485,112],[406,747,966,101],[406,603,1128,142],[406,850,941,5],[1024,0,289,601],[1315,376,400,85],[406,407,356,68],[0,0,404,852],[1315,0,453,260],[406,0,616,405]]}
 ];
 
 
@@ -214,7 +214,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 		this.btn_ad.addEventListener("click", fl_ClickToGoToAndStopAtFrame_10.bind(this));
 		
 		function fl_ClickToGoToAndStopAtFrame_10() {
-			$("#video_ins")[0].src = "IT.mkv";
+			$("#video_ins")[0].src = "IT2.mp4";
 		}
 		
 		this.return_btn.addEventListener("click", a);
@@ -305,7 +305,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 	this.instance_1.setTransform(134.65,208.15,0.5,0.5);
 
 	this.instance_2 = new lib.CachedBmp_1();
-	this.instance_2.setTransform(124.35,508.95,0.5,0.5);
+	this.instance_2.setTransform(124.35,511.45,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
@@ -355,11 +355,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1588952116522", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1588952116522", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1588952116542", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1588952116542", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1588952116542", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1589134180115", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1589134180115", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1589134180134", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1589134180134", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1589134180134", id:"an.Video"}
 	],
 	preloads: []
 };

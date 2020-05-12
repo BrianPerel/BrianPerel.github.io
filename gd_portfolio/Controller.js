@@ -214,7 +214,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 		this.btn_ad.addEventListener("click", fl_ClickToGoToAndStopAtFrame_10.bind(this));
 		
 		function fl_ClickToGoToAndStopAtFrame_10() {
-			$("#video_ins")[0].src = "Lighthouse2.mp4";
+			$("#video_ins")[0].src = "IT4.mp4";
 		}
 		
 		this.return_btn.addEventListener("click", a);
@@ -355,11 +355,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1589321614505", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1589321614505", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1589321614532", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1589321614532", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1589321614532", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1589323624342", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1589323624342", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1589323624364", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1589323624364", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1589323624364", id:"an.Video"}
 	],
 	preloads: []
 };

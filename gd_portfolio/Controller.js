@@ -141,7 +141,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 		
 		this.stop();
 		
-		var videoURL = "Home.mp4";
+		var videoURL = "Home1.mp4";
 		
 		this.video_ins.on("added", function() {
 		    $("#video_ins")[0].src = videoURL;
@@ -160,7 +160,7 @@ p.nominalBounds = new cjs.Rectangle(-22,-0.5,264.5,56);
 		this.btn_home.addEventListener("click", fl_ClickToGoToAndStopAtFrame.bind(this));
 		
 		function fl_ClickToGoToAndStopAtFrame() {
-			$("#video_ins")[0].src = "Home.mp4";
+			$("#video_ins")[0].src = "Home1.mp4";
 		}
 		
 		this.btn_photos.addEventListener("click", fl_ClickToGoToAndStopAtFrame_2.bind(this));
@@ -355,11 +355,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Controller_atlas_.png?1589285771784", id:"Controller_atlas_"},
-		{src:"images/Controller_atlas_2.png?1589285771785", id:"Controller_atlas_2"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1589285771802", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1589285771802", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1589285771802", id:"an.Video"}
+		{src:"images/Controller_atlas_.png?1589289354826", id:"Controller_atlas_"},
+		{src:"images/Controller_atlas_2.png?1589289354826", id:"Controller_atlas_2"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1589289354844", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1589289354844", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1589289354844", id:"an.Video"}
 	],
 	preloads: []
 };

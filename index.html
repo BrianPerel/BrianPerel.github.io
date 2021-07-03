@@ -74,7 +74,7 @@
 			<!-- CONTACT --> 
 			<div class="jumbotron text-center">
 				<header><br/>
-					<h1><b>Brian Perel</b></h1>
+					<h1><b>Brian Perel</b></h1><br>
 				</header>
 			</div>		
 			
@@ -178,34 +178,6 @@
 				</div>
 				
 				<div class="hidden">
-					<!-- CURRENT DATE --> 
-					<br/><br/><script>
-					  var mydate = new Date() // Create Date Object 
-					  var year = mydate.getYear() // create year attribute of mydate object 
-					  if(year < 1000) 
-						  year += 1900
-					  
-					  var month = mydate.getMonth() + 1 // create month attribute of mydate object 
-					  if(month < 10)
-							month = "0" + month // if month is of single digit (january-september) prepend a 0
-				  
-					  var day = mydate.getDate() // create day attribute of mydate object 
-					  if(day < 10)
-							day = "0" + day // if day is of single digit (1-9) prepend a 0
-				  
-					  // display results 
-					  document.write('&nbsp;&nbsp;&nbsp;Current date & time:<br/>' + '&nbsp;&nbsp;&nbsp;' + month + "/" + day  + "/" + year)
-				  
-					  var time = new Date();
-					  var hours = time.getHours();
-					  var minutes = time.getMinutes();
-					  var am_pm = hours >= 12 ? 'pm' : 'am';
-					  hours = hours % 12;
-					  hours = hours ? hours : 12;
-					  minutes = minutes < 10 ? '0' + minutes : minutes;
-					  document.write('<br/>' + '&nbsp;&nbsp;&nbsp;' + hours + ':' + minutes + ' ' + am_pm + '<br/><br/>')
-					</script>
-					
 					<br/><center><a href="#top" style="text-decoration: none;"><button type="button" class="btn btn-light"><img src="images/icons_pics/up_arrow.png" style="display: inline; margin-bottom: 5%" width="10px" height="12px"></img><p style="display: inline; font-size: 18px">&nbsp;Back to top</button></p></a></center><br/>
 				</div>
 			</div> 

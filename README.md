@@ -5,4 +5,4 @@ My portfolio website built using bootstrap framework<br>
 
 ![Picture](images/Screenshots/main.PNG)
 
-[Check it out here](https://brianperel.github.io/){:target="_blank" rel="noopener"}.
+Check it out here(https://brianperel.github.io/)

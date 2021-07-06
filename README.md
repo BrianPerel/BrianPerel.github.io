@@ -1,6 +1,6 @@
 # brianperel.github.io 
 
-My portfolio website built using bootstrap framework<br> 
+My portfolio website built using the bootstrap framework<br> 
 -Contains: home, websites, resume, projects, and interests pages<br> 
 
 ![Picture](images/Screenshots/main.PNG)
